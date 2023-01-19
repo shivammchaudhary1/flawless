@@ -24,7 +24,7 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 
-export default function WithSubnavigation() {
+export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
@@ -69,10 +69,10 @@ export default function WithSubnavigation() {
             color={useColorModeValue("gray.800", "white")}
           >
             {/* <Image
-              src="https://i.ibb.co/10MwCh1/flawless.png"
-              alt="Dan Abramov"
-              boxSize="100px"
-            /> */}
+                src="https://i.ibb.co/10MwCh1/flawless.png"
+                alt="Dan Abramov"
+                boxSize="100px"
+              /> */}
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>

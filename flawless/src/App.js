@@ -1,9 +1,12 @@
-import WithSubnavigation from "./Components/Navbar";
+import LandingPage from "./ComponentsUser/LandingPage/LandingPage";
+import CheckoutPage from "./ComponentsUser/CheckoutPage/CheckoutPage";
+import LoginSignup from "./ComponentsUser/LoginSignup/LoginSignup";
+import OrderingPage from "./ComponentsUser/OrderingPage/OrderingPage";
 
 function App() {
   return (
-    <div className="App">
-      <WithSubnavigation></WithSubnavigation>
+    <div>
+      <LandingPage />
     </div>
   );
 }
