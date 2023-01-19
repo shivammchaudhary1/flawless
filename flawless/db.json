@@ -1,0 +1,92 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "topbrands": [
+    {
+      "id": 1,
+      "brand_image": "https://images-static.nykaa.com/uploads/0fc221bb-6ec8-44bf-8f30-3dd4aed5af37.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "On ₹3500: Pick a Lipstick or Kajal!",
+      "brand_product_description": "Bestseller Minis Starting at ₹750"
+    },
+    {
+      "id": 2,
+      "brand_image": "https://images-static.nykaa.com/uploads/72472d5f-489b-48d1-a3ed-9ca3708d9985.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "Up To 40% Off",
+      "brand_product_description": "No 1 Does Mascaras like Maybelline!"
+    },
+    {
+      "id": 3,
+      "brand_image": "https://images-static.nykaa.com/uploads/2162e758-1aa6-4663-9f11-be2013e2f3cd.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "Up To 15% Off",
+      "brand_product_description": "Say No to Skin Dryness this Winter"
+    },
+    {
+      "id": 4,
+      "brand_image": "https://images-static.nykaa.com/uploads/a347c589-a317-4e47-b6cc-3da12019048e.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "Up To 40% Off",
+      "brand_product_description": "Because You're Worth it"
+    },
+    {
+      "id": 5,
+      "brand_image": "https://images-static.nykaa.com/uploads/f78980bd-8cbe-4346-aece-c759cc904528.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "Up To 30% Off + Pick your Compact at ₹799",
+      "brand_product_description": "Rich, Soft and Smooth matte lips all day long!"
+    },
+    {
+      "id": 6,
+      "brand_image": "https://images-static.nykaa.com/uploads/421a5c91-34e5-4d2e-9140-d0c495d48150.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "Up To 50% Off",
+      "brand_product_description": "Free Serum worth 799 On 999"
+    },
+    {
+      "id": 7,
+      "brand_image": "https://images-static.nykaa.com/uploads/20c58a75-905e-47ce-8ab4-162acf3f1cf0.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "Offers you can't resist",
+      "brand_product_description": "On your favourite luxe brands!"
+    },
+    {
+      "id": 8,
+      "brand_image": "https://images-static.nykaa.com/uploads/48ad4279-c4f3-4e80-9ddb-cdb6f5a1b8c7.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "50% Off on GloWish Franchise +",
+      "brand_product_description": "2 Complimentary Gifts on ₹2500"
+    }
+  ],
+  "onlyatnykaa": [
+    {
+      "id": 1,
+      "brand_image": "https://images-static.nykaa.com/creatives/876418b7-3b07-42ff-8909-1212f7be08e0/default.png?tr=w-400,cm-pad_resize",
+      "brand_product_name": "Upto 30% OFF",
+      "brand_product_description": "Sleeping Mask on 699"
+    },
+    {
+      "id": 2,
+      "brand_image": "https://images-static.nykaa.com/creatives/7f7638b7-4f89-45e5-9dc1-aac17134e1fe/default.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "3 Exciting Gifts on all Orders",
+      "brand_product_description": "Discover scent-sational combos"
+    },
+    {
+      "id": 3,
+      "brand_image": "https://images-static.nykaa.com/creatives/cd024e6f-a9d4-4db1-81e5-fa68e85534aa/default.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "Powered by Peptides",
+      "brand_product_description": "Multi-Peptide + HA Serum"
+    },
+    {
+      "id": 4,
+      "brand_image": "https://images-static.nykaa.com/creatives/eab96914-e337-4bb7-bec5-fd5c4cb1b86d/default.jpg?tr=w-400,cm-pad_resize",
+      "brand_product_name": "Upto 50% Off + Serum on 999",
+      "brand_product_description": "Fragrances for every mood"
+    }
+  ]
+}
