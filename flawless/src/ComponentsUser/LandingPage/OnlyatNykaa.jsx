@@ -20,7 +20,7 @@ const OnlyatNykaa = () => {
     <>
       <Box p={5}>
         <Text fontSize={25} textAlign={["left", "center"]} fontWeight="bold">
-          Top Brands
+          Only at Nykaa
         </Text>
       </Box>
 
