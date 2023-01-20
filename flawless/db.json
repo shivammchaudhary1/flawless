@@ -204,5 +204,1384 @@
       "brand_image": "https://images-static.nykaa.com/uploads/d4eba2cb-bbf9-4f6c-ac47-281819f52385.jpg?tr=w-240,cm-pad_resize",
       "product_name": "Shampoos & Conditioners"
     }
+  ],
+  "eye": [
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/f/9fcf697NYNYKBC001511-New1.jpg",
+      "product_name": "Nykaa Cosmetics Insta Magic Eyes Duo- Black Magic Kajal & Bl...",
+      "product_mrp": "₹495",
+      "product_price": "₹421",
+      "product_off": "15% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 29077 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/2/329db8bMAYBE00000468_1.jpg",
+      "product_name": "Maybelline New York Eye Makeup Kit - Colossal Mascara + Tatt...",
+      "product_mrp": "₹1798",
+      "product_price": "₹1158",
+      "product_off": "36% Off",
+      "product_giftcard": "",
+      "product_rating": "( 4178 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/e/5eb8991NYKAYCOM00017_1.jpg",
+      "product_name": "Kay Beauty Kajal Combo (Pack of 2)",
+      "product_mrp": "₹598",
+      "product_price": "₹538",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 15816 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/0/c0cacafLOREA00000308_1.jpg",
+      "product_name": "LOreal Paris Air Volume Mascara- Black",
+      "product_mrp": "",
+      "product_price": "₹999",
+      "product_off": "",
+      "product_giftcard": "",
+      "product_rating": "( 325 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/d/6d1b516RIMME00000302_1.jpg",
+      "product_name": "Rimmel London Soft Kohl Kajal Eye Liner Pencil",
+      "product_mrp": "₹180",
+      "product_price": "₹126",
+      "product_off": "30% Off",
+      "product_giftcard": "",
+      "product_rating": "( 426 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/3/c3f689cNYSWISSB00255_0.jpg",
+      "product_name": "Swiss Beauty Ultimate 9 Pigmented Colors Eyeshadow Palette",
+      "product_mrp": "₹269",
+      "product_price": "₹229",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 8830 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245710583_1.jpg",
+      "product_name": "Nykaa Eyes On Me! 10-in-1 Eyeshadow Palette",
+      "product_mrp": "₹599",
+      "product_price": "₹479",
+      "product_off": "20% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 22028 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/8/2844dd0MAYBE00000375.jpg",
+      "product_name": "Maybelline New York Lash Sensational Sky High Waterproof Mas...",
+      "product_mrp": "₹799",
+      "product_price": "₹639",
+      "product_off": "20% Off",
+      "product_giftcard": "",
+      "product_rating": "( 3224 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f8176746923492584206_1.jpg",
+      "product_name": "Maybelline New York Volum Express Hyper Curl Mascara",
+      "product_mrp": "₹490",
+      "product_price": "₹392",
+      "product_off": "20% Off",
+      "product_giftcard": "",
+      "product_rating": "( 64535 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/4/f4aa71c6946537005757_1.jpg",
+      "product_name": "Maybelline New York The Colossal Kajal 24Hour Smudge Proof",
+      "product_mrp": "₹189",
+      "product_price": "₹170",
+      "product_off": "10% Off",
+      "product_giftcard": "Offer Available",
+      "product_rating": "( 17208 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/9/19647_h_2.jpg",
+      "product_name": "Lakme Insta Eye Liner",
+      "product_mrp": "₹130",
+      "product_price": "₹122",
+      "product_off": "6% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 50867 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/1/015875cLAKME00000332_1.jpg",
+      "product_name": "Lakme Eyeconic Kajal - Twin Pack",
+      "product_mrp": "₹330",
+      "product_price": "₹281",
+      "product_off": "15% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 9605 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/2/f25271c30079236_MME_1.jpg",
+      "product_name": "Maybelline New York The Colossal Volum Express Mascara",
+      "product_mrp": "₹449",
+      "product_price": "₹340",
+      "product_off": "24% Off",
+      "product_giftcard": "",
+      "product_rating": "( 29502 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/9/293672e8904207503161_1.jpg",
+      "product_name": "Insight Cosmetics Pro Concealer Palette - Corrector",
+      "product_mrp": "",
+      "product_price": "₹199",
+      "product_off": "",
+      "product_giftcard": "Extra 10% Off",
+      "product_rating": "( 13086 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/1/b1f971c8901526529964_1.jpg",
+      "product_name": "Maybelline New York Colossal Bold Eyeliner - Black",
+      "product_mrp": "₹249",
+      "product_price": "₹209",
+      "product_off": "16% Off",
+      "product_giftcard": "",
+      "product_rating": "( 23422 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/b/dbeb4e88904330900424_1.jpg",
+      "product_name": "Kay Beauty Waterproof 24 Hour Kajal - Spade - Black",
+      "product_mrp": "",
+      "product_price": "₹299",
+      "product_off": "",
+      "product_giftcard": "",
+      "product_rating": "( 15708 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/8/28e8a078904325004151_1.jpg",
+      "product_name": "Swiss Beauty Glimmer Eye Liner",
+      "product_mrp": "₹49",
+      "product_price": "₹42",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 9657 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/f/ef3c934SUGAR00000051_1.jpg",
+      "product_name": "SUGAR Kohl Of Honour Intense Kajal",
+      "product_mrp": "₹249",
+      "product_price": "₹212",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 9962 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/a/9abdfedNYKAC00000371_1.jpg",
+      "product_name": "Nykaa Cosmetics Eyes On Me! 4 In 1 Quad Eyeshadow Palette",
+      "product_mrp": "₹375",
+      "product_price": "₹319",
+      "product_off": "15% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 5444 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/0/900bcaf71249343326_1.jpg",
+      "product_name": "LOreal Paris Voluminous Lash Paradise Mascara - 204 Blackest...",
+      "product_mrp": "₹849",
+      "product_price": "₹637",
+      "product_off": "25% Off",
+      "product_giftcard": "",
+      "product_rating": "( 10994 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/f/0f92e506902395234708.jpg",
+      "product_name": "Maybelline New York Lasting Drama Gel Eyeliner With Expert E...",
+      "product_mrp": "₹500",
+      "product_price": "₹402",
+      "product_off": "20% Off",
+      "product_giftcard": "",
+      "product_rating": "( 25537 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245712938_1.jpg",
+      "product_name": "Nykaa Lash Talk Volumizing Mascara",
+      "product_mrp": "₹399",
+      "product_price": "₹319",
+      "product_off": "20% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 12922 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/8/b8ad4e88904330900554_5.jpg",
+      "product_name": "Kay Beauty Quick Dry Liquid Eyeliner",
+      "product_mrp": "₹525",
+      "product_price": "₹394",
+      "product_off": "25% Off",
+      "product_giftcard": "",
+      "product_rating": "( 10244 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/0/7077e57KAYBE00000051_1.jpg",
+      "product_name": "Kay Beauty Gel Eye Pencil",
+      "product_mrp": "₹599",
+      "product_price": "₹509",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 1456 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245711498_1_1.jpg",
+      "product_name": "Nykaa Matte to Last! Mini Metallic Liquid Lipstick and Eyesh...",
+      "product_mrp": "₹249",
+      "product_price": "₹125",
+      "product_off": "50% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 9274 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/4/f4aa71c6946537005757_1.jpg",
+      "product_name": "Maybelline New York The Colossal Kajal 24Hour Smudge Proof -...",
+      "product_mrp": "₹189",
+      "product_price": "₹170",
+      "product_off": "10% Off",
+      "product_giftcard": "Offer Available",
+      "product_rating": "( 17208 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/9/09d037emacxx00000225_0.jpg",
+      "product_name": "M.A.C In Extreme Dimension 24hr Kajal Eye Liner",
+      "product_mrp": "",
+      "product_price": "₹675",
+      "product_off": "",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 4099 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/1/9155a07nyswissb00192.jpg",
+      "product_name": "Swiss Beauty Eyebrow Pencil",
+      "product_mrp": "₹69",
+      "product_price": "₹62",
+      "product_off": "10% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 18591 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/f/ffd3b10MAKEU00000178_1.jpg",
+      "product_name": "Makeup Revolution Forever Flawless",
+      "product_mrp": "₹1450",
+      "product_price": "₹999",
+      "product_off": "31% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 1175 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/b/eb2c017NYBH000000025_1.jpg",
+      "product_name": "Blue Heaven Intense Easy Sketch Eyeliner - Extreme Black",
+      "product_mrp": "₹170",
+      "product_price": "₹145",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 18851 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/5/35d2695SWIAC00000856_1.jpg",
+      "product_name": "Swiss Beauty Waterproof Pop Eyeliner With Smudge Proof and Q...",
+      "product_mrp": "₹199",
+      "product_price": "₹169",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 2587 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/e/6eade506902395395935.jpg",
+      "product_name": "Maybelline New York Lash Sensational Waterproof Mascara Blac...",
+      "product_mrp": "₹549",
+      "product_price": "₹440",
+      "product_off": "20% Off",
+      "product_giftcard": "",
+      "product_rating": "( 12658 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/c/3c6471c6902395740353_1.jpg",
+      "product_name": "Maybelline New York Line Tattoo High Impact Liner - Intense ...",
+      "product_mrp": "₹599",
+      "product_price": "₹452",
+      "product_off": "25% Off",
+      "product_giftcard": "",
+      "product_rating": "( 4174 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/0/804cb5924894_H_8901030872730.jpg",
+      "product_name": "Lakme 9 To 5 Eyeconic Liquid Liner",
+      "product_mrp": "₹260",
+      "product_price": "₹221",
+      "product_off": "15% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 181 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904052435129_1.png",
+      "product_name": "Colorbar Intensely Rich Kajal",
+      "product_mrp": "₹170",
+      "product_price": "₹136",
+      "product_off": "20% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 8832 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/3/23997_h-8901030644535.jpg",
+      "product_name": "Lakme Eyeconic Kajal",
+      "product_mrp": "₹300",
+      "product_price": "₹270",
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 24649 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/4/a47da07nyswissb00143.jpg",
+      "product_name": "Swiss Beauty Metallic Liquid Eyeshadow",
+      "product_mrp": "₹229",
+      "product_price": "₹183",
+      "product_off": "20% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 14146 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/1/81f3c8fBLUEH00000390_1.jpg",
+      "product_name": "Blue Heaven 10x Volumising Mascara - Black",
+      "product_mrp": "₹90",
+      "product_price": "₹77",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 4989 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/3/538a72e8904207501020_1.jpg",
+      "product_name": "Insight Cosmetics Pro Concealer Palette - Concealer",
+      "product_mrp": "",
+      "product_price": "₹199",
+      "product_off": "",
+      "product_giftcard": "Extra 10% Off",
+      "product_rating": "( 7958 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/6/066c973N_8904052432975_1.jpg",
+      "product_name": "Colorbar Waterproof Liquid Eyeliner",
+      "product_mrp": "₹425",
+      "product_price": "₹340",
+      "product_off": "20% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 7739 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/b/0b4f0c58904245701505_0.jpg",
+      "product_name": "Nykaa Black Magic Liquid Eyeliner - Super Black 01",
+      "product_mrp": "₹325",
+      "product_price": "₹293",
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 15776 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/3/33ef0c5NYKAC00000132_0.jpg",
+      "product_name": "Nykaa Black Magic Kajal - Black",
+      "product_mrp": "₹170",
+      "product_price": "₹153",
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 13104 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245710583_1.jpg",
+      "product_name": "Nykaa Eyes On Me! 10-in-1 Eyeshadow Palette - Sundowner Stun...",
+      "product_mrp": "₹599",
+      "product_price": "₹479",
+      "product_off": "20% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 22028 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/a/2a65f778903487044449_1.jpg",
+      "product_name": "Miss Claire Waterproof Eyebrow Pencil With Mascara Brush",
+      "product_mrp": "₹125",
+      "product_price": "₹113",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 18571 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/6/b6a62388903380001075_1.jpg",
+      "product_name": "Faces Canada Magneteyes Eyeliner - Dramatic Black Finish",
+      "product_mrp": "₹249",
+      "product_price": "₹187",
+      "product_off": "25% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 10692 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/d/fd321d421915_H-8901030368875.jpg",
+      "product_name": "Lakme Absolute Shine Line Eye Liner",
+      "product_mrp": "₹500",
+      "product_price": "₹425",
+      "product_off": "15% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 13562 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/8/b874096609332299221.jpg",
+      "product_name": "e.l.f. Cosmetics Bite Size Eyeshadow",
+      "product_mrp": "",
+      "product_price": "₹350",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 8948 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/5/e5152c6NYPAC00001375_1.jpg",
+      "product_name": "PAC Lash Fixer Eyelash Glue - Transparent",
+      "product_mrp": "",
+      "product_price": "₹495",
+      "product_off": "",
+      "product_giftcard": "",
+      "product_rating": "( 4655 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/896960f6902395716389_1.png",
+      "product_name": "Maybelline New York Define & Blend Brow Pencil",
+      "product_mrp": "₹349",
+      "product_price": "₹295",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 3667 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/7/b7ec7c18904245701857_rev1.jpg",
+      "product_name": "Nykaa Glamoreyes Colour Eye Pencil Kajal",
+      "product_mrp": "₹499",
+      "product_price": "₹374",
+      "product_off": "25% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 11038 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/d/3d3dca28904245703295_rev1.jpg",
+      "product_name": "Nykaa GLAMOReyes Coloured Liquid Eyeliner",
+      "product_mrp": "₹325",
+      "product_price": "₹228",
+      "product_off": "30% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 11451 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/b/bb3dc105057566108751_-_1.jpg",
+      "product_name": "Makeup Revolution Maxi Reloaded Palette",
+      "product_mrp": "₹2450",
+      "product_price": "₹1225",
+      "product_off": "50% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 1855 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/a/5af9d94THECI00000054_00.jpg",
+      "product_name": "The Ordinary Multi-Peptide Lash And Brow Serum",
+      "product_mrp": "",
+      "product_price": "₹1450",
+      "product_off": "",
+      "product_giftcard": "",
+      "product_rating": "( 58 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/3/839690c8904330901773_1.jpg",
+      "product_name": "Kay Beauty Metallic Eyeshadow Stick Pencil",
+      "product_mrp": "₹699",
+      "product_price": "₹524",
+      "product_off": "25% Off",
+      "product_giftcard": "",
+      "product_rating": "( 7071 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f82ef778903487004818_1.jpg",
+      "product_name": "Miss Claire Glimmersticks For Eyes",
+      "product_mrp": "₹65",
+      "product_price": "₹59",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 12997 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/5/851b6213592495983014_new_0.jpg",
+      "product_name": "Daily Life Forever52 16 Color Camouflage HD Concealer Palett...",
+      "product_mrp": "₹2999",
+      "product_price": "₹2549",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 847 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904330901643_1.jpg",
+      "product_name": "Kay Beauty Eyeshadow Palette",
+      "product_mrp": "₹1199",
+      "product_price": "₹959",
+      "product_off": "20% Off",
+      "product_giftcard": "",
+      "product_rating": "( 2447 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/1/c1051d422342_H-8901030399138.jpg",
+      "product_name": "Lakme Eyeconic Curling Mascara",
+      "product_mrp": "₹475",
+      "product_price": "₹380",
+      "product_off": "20% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 13961 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/a/ea5058a8906087776758__1_.jpg",
+      "product_name": "Mamaearth Charcoal Black Long Stay Kajal Black Waterproof, F...",
+      "product_mrp": "₹299",
+      "product_price": "₹263",
+      "product_off": "12% Off",
+      "product_giftcard": "",
+      "product_rating": "( 1871 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8903380160307_3.jpg",
+      "product_name": "Faces Canada Magneteyes Dramatic Volumizing Mascara Intense ...",
+      "product_mrp": "₹399",
+      "product_price": "₹299",
+      "product_off": "25% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 6267 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/f/4fcd0098904325001600_1.jpg",
+      "product_name": "Swiss Beauty All about Lip Palette with 10 Creamy and Matte ...",
+      "product_mrp": "₹429",
+      "product_price": "₹365",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 6032 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/4/c4f0e68MARSX00000101_1.jpg",
+      "product_name": "MARS Bling It On Glitter Palette",
+      "product_mrp": "₹299",
+      "product_price": "₹269",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 1009 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/5/657910812_1.jpg",
+      "product_name": "ETUDE HOUSE Drawing Eyebrow",
+      "product_mrp": "₹260",
+      "product_price": "₹182",
+      "product_off": "30% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 12031 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/3/e3471d424866_H-8901030816130.jpg",
+      "product_name": "Lakme Absolute Spotlight Eye Shadow Palette",
+      "product_mrp": "₹995",
+      "product_price": "₹697",
+      "product_off": "30% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 4398 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/0/609332217232.jpg",
+      "product_name": "e.l.f. Cosmetics Instant Lift Brow Pencil",
+      "product_mrp": "",
+      "product_price": "₹250",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 4866 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/3/632d50bSUGAG00000084_1.jpg",
+      "product_name": "SUGAR POP Longwear Kajal",
+      "product_mrp": "₹199",
+      "product_price": "₹179",
+      "product_off": "10% Off",
+      "product_giftcard": "Extra 5% Off",
+      "product_rating": "( 1898 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3f07c5d8906049910633_1.jpg",
+      "product_name": "Vaadi Herbals Lip Balm - Strawberry & Honey",
+      "product_mrp": "₹78",
+      "product_price": "₹66",
+      "product_off": "15% Off",
+      "product_giftcard": "Extra 10% Off",
+      "product_rating": "( 25805 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/2/6291106034271_1.jpg",
+      "product_name": "Huda Beauty Nude Obsessions Mini Eyeshadow Palette",
+      "product_mrp": "",
+      "product_price": "₹2400",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 2051 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245712921_1.jpg",
+      "product_name": "Nykaa Lash Talk Curl Power Curling Mascara",
+      "product_mrp": "₹349",
+      "product_price": "₹314",
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 12922 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/e/ae61c8f8903380159448_1.jpg",
+      "product_name": "Faces Canada Ultime Pro Intense Gel Kajal With Free Sharpene...",
+      "product_mrp": "₹549",
+      "product_price": "₹412",
+      "product_off": "25% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 6705 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/a/6a42e0dHUDAB00000829_1.jpg",
+      "product_name": "Huda Beauty Empowered Eyeshadow Palette",
+      "product_mrp": "",
+      "product_price": "₹5375",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 66 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/e/bef72caNYPAC00001879_1.jpg",
+      "product_name": "PAC Eyebrow Definer Palette 4 Colors",
+      "product_mrp": "",
+      "product_price": "₹595",
+      "product_off": "",
+      "product_giftcard": "",
+      "product_rating": "( 2559 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/4/c4b1844MARSX00000241_1.jpg",
+      "product_name": "MARS Mesmereyes Eyeshadow Palette",
+      "product_mrp": "₹299",
+      "product_price": "₹269",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 976 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/0/609332216631.jpg",
+      "product_name": "e.l.f. Cosmetics Clear Brow & Lash Mascara - Clear",
+      "product_mrp": "",
+      "product_price": "₹250",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 3429 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904052426080.png",
+      "product_name": "Colorbar On The Go Makeup Remover Wipes",
+      "product_mrp": "₹95",
+      "product_price": "₹76",
+      "product_off": "20% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 6480 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/5/853ea078904325003413_1.jpg",
+      "product_name": "Swiss Beauty Metallic Eyeliner",
+      "product_mrp": "₹249",
+      "product_price": "₹212",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 3265 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/2/12daef48904245702076_1.jpg",
+      "product_name": "Nykaa Naturals Tea Tree Essential Oil for Acne & Dandruff Co...",
+      "product_mrp": "₹350",
+      "product_price": "₹298",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 31348 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/e/2eec33dNYJCH00000103-01.png",
+      "product_name": "Juicy Chemistry Blood Orange & Rosehip Organic Lip Balm - Fo...",
+      "product_mrp": "₹350",
+      "product_price": "₹263",
+      "product_off": "25% Off",
+      "product_giftcard": "",
+      "product_rating": "( 4332 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/6/a66489cNYSWISSB00259_0.jpg",
+      "product_name": "Swiss Beauty Ultimate 9 Pigmented Colors Eyeshadow Palette -...",
+      "product_mrp": "₹269",
+      "product_price": "₹229",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 8830 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/2/b2deca28904245700829_rev1.jpg",
+      "product_name": "Nykaa Rock the Line Kajal Eyeliner - 001 Jet Black",
+      "product_mrp": "₹199",
+      "product_price": "₹179",
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 21608 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/9/6902395439967.1.jpg",
+      "product_name": "Maybelline New York The Blushed Nudes Eye Shadow Palette",
+      "product_mrp": "₹999",
+      "product_price": "₹749",
+      "product_off": "25% Off",
+      "product_giftcard": "",
+      "product_rating": "( 6830 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/3/b3f9cd2MARSX00000120_1.jpg",
+      "product_name": "MARS Fabulash Mascara",
+      "product_mrp": "₹199",
+      "product_price": "₹179",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 1269 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/8/b8e5ce6737534800188_1.jpg",
+      "product_name": "Plum Natur Studio All-Day-Wear Kohl Kajal - Black Brilliance...",
+      "product_mrp": "₹495",
+      "product_price": "₹421",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 4139 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904052400127_1_2.jpg",
+      "product_name": "Colorbar Just Smoky Eye Pencil",
+      "product_mrp": "₹695",
+      "product_price": "₹556",
+      "product_off": "20% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 3257 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245710569_1.jpg",
+      "product_name": "Nykaa Eyes On Me! 10-in-1 Eyeshadow Palette - Smokey at 8!",
+      "product_mrp": "₹599",
+      "product_price": "₹539",
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 22028 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/8/88149998904214802301_1.jpg",
+      "product_name": "Blue Heaven Brow Perfect Eyebrow Enhancer Pencil and Styler",
+      "product_mrp": "₹175",
+      "product_price": "₹149",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 7043 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/9/7964a078904325004014.jpg",
+      "product_name": "Swiss Beauty 2 In 1 Eyebrow & Gel Eyeliner",
+      "product_mrp": "₹399",
+      "product_price": "₹339",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 4320 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/1/e1d926f651986971961_1.jpg",
+      "product_name": "Too Faced Better Than Sex Mascara - Black",
+      "product_mrp": "",
+      "product_price": "₹1150",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 1537 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/9/392f74e8904320704360_1.jpg",
+      "product_name": "SUGAR Wingman Waterproof Microliner - 01 I'll Be Black(1.6ml...",
+      "product_mrp": "₹499",
+      "product_price": "₹424",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 2931 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/a/caaba07nyswissb00230.jpg",
+      "product_name": "Swiss Beauty Bold Felt Tip Eyeliner - Jet Black",
+      "product_mrp": "₹249",
+      "product_price": "₹212",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 4739 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/5/857c3418904245709594_2.jpg",
+      "product_name": "Nykaa Lash Talk False Eyelash",
+      "product_mrp": "₹199",
+      "product_price": "₹139",
+      "product_off": "30% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 10649 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/4/b4f954d3592495326019_0.jpg",
+      "product_name": "Daily Life Forever52 Long Wear Gel Eyeliner Tattoo",
+      "product_mrp": "₹575",
+      "product_price": "₹506",
+      "product_off": "12% Off",
+      "product_giftcard": "",
+      "product_rating": "( 2090 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/d/ad520978904320724108_1.jpg",
+      "product_name": "SUGAR Contour De Force Eyes And Face Palette",
+      "product_mrp": "",
+      "product_price": "₹1099",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 539 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/2/c24b6b029112_h-8901030849282.jpg",
+      "product_name": "Lakme Eyeconic Volume Mascara - Deep Black",
+      "product_mrp": "₹400",
+      "product_price": "₹320",
+      "product_off": "20% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 1563 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/b/7b9829a773602421756_rv__1.jpg",
+      "product_name": "M.A.C Studio Finish SPF 35 Concealer",
+      "product_mrp": "",
+      "product_price": "₹2300",
+      "product_off": "",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 931 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/b/7bca47eINSIG00000445_1.jpg",
+      "product_name": "Insight Cosmetics Smudge Free Eyebrow Pencil",
+      "product_mrp": "",
+      "product_price": "₹120",
+      "product_off": "",
+      "product_giftcard": "Extra 10% Off",
+      "product_rating": "( 2398 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/7/3784fe58904214802271_1.jpg",
+      "product_name": "Blue Heaven 24 Hr Stay Kajal, Jet Black",
+      "product_mrp": "₹90",
+      "product_price": "₹77",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 3931 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/5/f54216cHUDAB00000070.jpg",
+      "product_name": "Huda Beauty Naughty Nude Eyeshadow Palette",
+      "product_mrp": "",
+      "product_price": "₹5375",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 1699 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/2/723671c8901526301614_1.jpg",
+      "product_name": "Maybelline New York Colossal Kajal Super Black",
+      "product_mrp": "₹325",
+      "product_price": "₹291",
+      "product_off": "10% Off",
+      "product_giftcard": "Offer Available",
+      "product_rating": "( 5120 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/0/609332216518.jpg",
+      "product_name": "e.l.f. Cosmetics Eyeliner Pen",
+      "product_mrp": "",
+      "product_price": "₹350",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 3689 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/4/140ece6PLUMX00000155_1.jpg",
+      "product_name": "Plum Eye-swear-by Kohl Kajal - Deep Black",
+      "product_mrp": "₹275",
+      "product_price": "₹220",
+      "product_off": "20% Off",
+      "product_giftcard": "",
+      "product_rating": "( 2550 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/1/c157a078904325003512_1.jpg",
+      "product_name": "Swiss Beauty Loose Foil Pigments",
+      "product_mrp": "₹229",
+      "product_price": "₹195",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 5798 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/8/d8361ac8904052409625_1.jpg",
+      "product_name": "Colorbar All-Matte Eyeliner",
+      "product_mrp": "₹700",
+      "product_price": "₹560",
+      "product_off": "20% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 2976 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/9/f9b1a078904325006926_1.jpg",
+      "product_name": "Swiss Beauty Intense Gel Kajal",
+      "product_mrp": "₹399",
+      "product_price": "₹339",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 3262 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/n/y/nypac00001140m_2.jpg",
+      "product_name": "PAC Longlasting Kohl Pencil",
+      "product_mrp": "",
+      "product_price": "₹395",
+      "product_off": "",
+      "product_giftcard": "Offer Available",
+      "product_rating": "( 4235 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/1/f1c13858904207503451_1.jpg",
+      "product_name": "Insight Cosmetics Metallist Glitter Eyeshadow",
+      "product_mrp": "",
+      "product_price": "₹180",
+      "product_off": "",
+      "product_giftcard": "Extra 10% Off",
+      "product_rating": "( 2102 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/9/6902395697350_5th_avenue_sunset_i0.jpg",
+      "product_name": "Maybelline New York City Mini Palette Eye shadow",
+      "product_mrp": "₹750",
+      "product_price": "₹565",
+      "product_off": "25% Off",
+      "product_giftcard": "",
+      "product_rating": "( 2490 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/1/f150c8f8904214802295_12.jpg",
+      "product_name": "Blue Heaven True Brow Eye Brow Definer",
+      "product_mrp": "₹90",
+      "product_price": "₹77",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 5077 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/9/5907587149779.jpg",
+      "product_name": "Inglot AMC Eyeliner Gel",
+      "product_mrp": "₹1800",
+      "product_price": "₹1620",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 2456 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3fc4da8IBAHA00000088_1.jpg",
+      "product_name": "IBA Must Have Complete Makeup Box (Fair)",
+      "product_mrp": "₹5516",
+      "product_price": "₹3585",
+      "product_off": "35% Off",
+      "product_giftcard": "",
+      "product_rating": "( 100 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/n/_/n_8992304019890.jpg",
+      "product_name": "Maybelline New York Hyper Glossy Liquid Liner",
+      "product_mrp": "₹349",
+      "product_price": "₹242",
+      "product_off": "31% Off",
+      "product_giftcard": "",
+      "product_rating": "( 8448 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/9/19544_h-8901030174827.jpg",
+      "product_name": "Lakme Kajal - Black",
+      "product_mrp": "",
+      "product_price": "₹75",
+      "product_off": "",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 5929 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/a/1/a1704e88904330900448_1.jpg",
+      "product_name": "Kay Beauty Smudgeproof Jet Black Gel Kajal - Onyx",
+      "product_mrp": "₹575",
+      "product_price": "₹518",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 2855 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/e/6e7aa078904325005721.jpg",
+      "product_name": "Swiss Beauty Precision Thickening Long Lash Black Mascara",
+      "product_mrp": "₹299",
+      "product_price": "₹254",
+      "product_off": "15% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 4056 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/0/5/052bfedNYKAC00000527_1.jpg",
+      "product_name": "Nykaa Cosmetics Eyes On Me! 4 in 1 Quad Eyeshadow Palette - ...",
+      "product_mrp": "₹375",
+      "product_price": "₹338",
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 5444 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245710576_1.jpg",
+      "product_name": "Nykaa Eyes On Me! 10-in-1 Eyeshadow Palette - Beachside Peac...",
+      "product_mrp": "₹599",
+      "product_price": "₹539",
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 22028 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/a/ca17cd18906028061035_1.jpg",
+      "product_name": "Blue Heaven Get Bold Eyeliner",
+      "product_mrp": "₹65",
+      "product_price": "₹55",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 7163 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/0/f0989e88904052414384_new_1.jpg",
+      "product_name": "Colorbar On The Go Makeup Remover Wipes",
+      "product_mrp": "₹250",
+      "product_price": "₹200",
+      "product_off": "20% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 1827 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/1/8/18557e76902395825258_1.jpg",
+      "product_name": "Maybelline New York Tattoo Brow 3 Day Styling Brow Gel",
+      "product_mrp": "₹699",
+      "product_price": "₹629",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 107 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/9/d9c9caf4935421250030_1.jpg",
+      "product_name": "L'Oreal Paris Brow Artist Genius Kit Medium To Dark",
+      "product_mrp": "₹1099",
+      "product_price": "₹857",
+      "product_off": "22% Off",
+      "product_giftcard": "",
+      "product_rating": "( 2926 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/n/y/nypac00001723_1_.jpg",
+      "product_name": "PAC IRIS Contact Lenses - 03 Grey",
+      "product_mrp": "",
+      "product_price": "₹220",
+      "product_off": "",
+      "product_giftcard": "",
+      "product_rating": "( 2541 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/f/7f58e57KAYBE00000048_1.jpg",
+      "product_name": "Kay Beauty Gel Eye Pencil - Blue",
+      "product_mrp": "",
+      "product_price": "₹599",
+      "product_off": "",
+      "product_giftcard": "",
+      "product_rating": "( 1456 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/2/d238138nybronson0047as__1_.jpg",
+      "product_name": "Bronson Professional Eyebrow and Face Razor - Pack of 3 (Col...",
+      "product_mrp": "₹200",
+      "product_price": "₹98",
+      "product_off": "51% Off",
+      "product_giftcard": "",
+      "product_rating": "( 8599 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/a/ba1ed0d8901030667114_h.jpg",
+      "product_name": "Lakme Eyeconic Liner Pen Fine Tip - Deep Black",
+      "product_mrp": "₹550",
+      "product_price": "₹468",
+      "product_off": "15% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 5393 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/5/d54d9aanypac00001621m_1.jpg",
+      "product_name": "PAC SuperBrowww Cream",
+      "product_mrp": "₹625",
+      "product_price": "₹563",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 2439 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/0/609332834422.jpg",
+      "product_name": "e.l.f. Cosmetics Liquid Glitter Eyeshadow",
+      "product_mrp": "",
+      "product_price": "₹590",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 1090 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/6/56bf50bSUGAG00000033_1.jpg",
+      "product_name": "SUGAR POP Volumizing Mascara",
+      "product_mrp": "₹299",
+      "product_price": "₹269",
+      "product_off": "10% Off",
+      "product_giftcard": "Extra 5% Off",
+      "product_rating": "( 921 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/a/9abdfedNYKAC00000371_1.jpg",
+      "product_name": "Nykaa Cosmetics Eyes On Me! 4 in 1 Quad Eyeshadow Palette - ...",
+      "product_mrp": "₹375",
+      "product_price": "₹319",
+      "product_off": "15% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 5444 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/5/459afe58904214802127_1.jpg",
+      "product_name": "Blue Heaven 2X Intense Kajal",
+      "product_mrp": "₹140",
+      "product_price": "₹119",
+      "product_off": "15% Off",
+      "product_giftcard": "Offer Available",
+      "product_rating": "( 4865 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/e/fea5f778903487017740_1.jpg",
+      "product_name": "Miss Claire Eyelash Glue - Dark Tone",
+      "product_mrp": "₹350",
+      "product_price": "₹315",
+      "product_off": "10% Off",
+      "product_giftcard": "",
+      "product_rating": "( 1881 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/0/4049775001061.jpeg",
+      "product_name": "Wet n Wild Color Icon Eyeshadow 10 Pan Palette",
+      "product_mrp": "₹799",
+      "product_price": "₹400",
+      "product_off": "50% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 8695 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/b/5b56119morab00000002_1.jpg",
+      "product_name": "MORPHE Jaclyn Hill Palette",
+      "product_mrp": "",
+      "product_price": "₹3700",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 559 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/b/fb9db845057566501354_-_2.jpg",
+      "product_name": "Revolution Relove Kohl Eyeliner",
+      "product_mrp": "₹250",
+      "product_price": "₹225",
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 1093 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/3/333efedNYKAC00000370_1.jpg",
+      "product_name": "Nykaa Cosmetics Eyes On Me! 4 in 1 Quad Eyeshadow Palette - ...",
+      "product_mrp": "",
+      "product_price": "₹375",
+      "product_off": "",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 5444 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/9/c/9c0d2b4LAKME00000114_11.jpg",
+      "product_name": "Lakme Eyeconic Insta Cool Kajal (black)",
+      "product_mrp": "₹230",
+      "product_price": "₹196",
+      "product_off": "15% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 2435 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/8/88c8cef6291106032895_1.jpg",
+      "product_name": "Huda Beauty The New Nude Eyeshadow Palette",
+      "product_mrp": "",
+      "product_price": "₹5375",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 705 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/a/2a5b119morab00000001_1.jpg",
+      "product_name": "MORPHE Jaclyn Hill Palette Volume II",
+      "product_mrp": "",
+      "product_price": "₹3700",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 458 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/0/503ae506902395781660.jpg",
+      "product_name": "Maybelline New York Falsies Lash Lift Mascara - Very Black",
+      "product_mrp": "₹599",
+      "product_price": "₹453",
+      "product_off": "24% Off",
+      "product_giftcard": "",
+      "product_rating": "( 2032 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/c/dcf716c602004071279.jpg",
+      "product_name": "Benefit Cosmetics Goof Proof Eyebrow Pencil",
+      "product_mrp": "",
+      "product_price": "₹2390",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 621 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245711146_1.jpg",
+      "product_name": "Nykaa Eyes On Me! 10-in-1 Eyeshadow Palette - Tinsel Twiligh...",
+      "product_mrp": "₹599",
+      "product_price": "₹509",
+      "product_off": "15% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 22028 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245710590_1.jpg",
+      "product_name": "Nykaa Eyes On Me! 10-in-1 Eyeshadow Palette - Daydreaming",
+      "product_mrp": "₹599",
+      "product_price": "₹539",
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 22028 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245712914_1.jpg",
+      "product_name": "Nykaa Lash Talk Super Sizer Volumizing Mascara",
+      "product_mrp": "",
+      "product_price": "₹399",
+      "product_off": "",
+      "product_giftcard": "Get Free Product",
+      "product_rating": "( 12922 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/b/a/ba532c66294018400820_1.jpg",
+      "product_name": "Huda Beauty Festive Obsessions Set",
+      "product_mrp": "",
+      "product_price": "₹3800",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 47 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/5/253172e8904207501303_1.jpg",
+      "product_name": "Insight Cosmetics Mascara",
+      "product_mrp": "",
+      "product_price": "₹115",
+      "product_off": "",
+      "product_giftcard": "Extra 10% Off",
+      "product_rating": "( 4533 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/7/0/7077e57KAYBE00000051_1.jpg",
+      "product_name": "Kay Beauty Gel Eye Pencil - Green",
+      "product_mrp": "₹599",
+      "product_price": "₹509",
+      "product_off": "15% Off",
+      "product_giftcard": "",
+      "product_rating": "( 1456 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/c/0/c0ca697FACES00000322-New1.jpg",
+      "product_name": "Faces Canada Magneteyes Range 3 In 1 Eye Combo",
+      "product_mrp": "₹837",
+      "product_price": "₹619",
+      "product_off": "26% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 41227 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/4/3/43a7941800897085605.jpg",
+      "product_name": "NYX Professional Makeup Epic Ink Liner",
+      "product_mrp": "₹825",
+      "product_price": "₹659",
+      "product_off": "20% Off",
+      "product_giftcard": "",
+      "product_rating": "( 1053 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/b/8b9e4e88904330902039_1.jpg",
+      "product_name": "Kay Beauty Ultra Black Volume & Length Mascara - Midnight",
+      "product_mrp": "",
+      "product_price": "₹799",
+      "product_off": "",
+      "product_giftcard": "",
+      "product_rating": "( 1639 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/6/2/6291106034165-1.jpg",
+      "product_name": "Huda Beauty Mercury Retrograde Eyeshadow Palette (16.1gm)",
+      "product_mrp": "",
+      "product_price": "₹5375",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 1615 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/4/d4647fdMAMAE00000439_1.jpg",
+      "product_name": "Mamaearth Soothing Waterproof Eyeliner",
+      "product_mrp": "₹399",
+      "product_price": "₹351",
+      "product_off": "12% Off",
+      "product_giftcard": "",
+      "product_rating": "( 521 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/4/24e6697COLOR00000223-New1.jpg",
+      "product_name": "Colorbar Waterproof Liquid Eyeliner & Intensely Rich Kajal C...",
+      "product_mrp": "₹595",
+      "product_price": "₹385",
+      "product_off": "35% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 16606 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/4/249b526651986210541_1.jpg",
+      "product_name": "Too Faced Better Than Sex Liquid Eye Liner",
+      "product_mrp": "",
+      "product_price": "₹1990",
+      "product_off": "",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 502 )"
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/6/e608a.jpg",
+      "product_name": "Wet n Wild Color Icon Kohl Liner Pencil",
+      "product_mrp": "₹195",
+      "product_price": "₹156",
+      "product_off": "20% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": "( 10655 )"
+    }
   ]
 }
