@@ -10,6 +10,8 @@ import Carousal1 from "./Carousal1";
 import FeaturesBrand from "./FeaturesBrand";
 import Footer1 from "./Footer1";
 import Footer from "./Footer";
+import EverDayEssentials from "./EverDayEssentials";
+import Luxe from "./Luxe";
 
 const LandingPage = () => {
   return (
@@ -23,6 +25,8 @@ const LandingPage = () => {
       <AfterOnlyatNykaa />
       <Carousal1 />
       <FeaturesBrand />
+      <EverDayEssentials />
+      <Luxe />
       <Footer1 />
       <Footer />
     </div>
