@@ -24,6 +24,8 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 
+import { Link as RouterLink } from "react-router-dom";
+
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
 
@@ -54,15 +56,17 @@ export default function Navbar() {
             aria-label={"Toggle Navigation"}
           />
         </Flex>
-        <Box size="sm">
-          <Image
-            // src="https://i.ibb.co/10MwCh1/flawless.png"
-            src="https://i.ibb.co/MR3Y7pm/flawless1.png"
-            // src="https://i.ibb.co/wRqC4bC/flawless2.png"
-            alt="Dan Abramov"
-            boxSize="100px"
-          />
-        </Box>
+        <RouterLink to="/">
+          <Box size="sm">
+            <Image
+              // src="https://i.ibb.co/10MwCh1/flawless.png"
+              src="https://i.ibb.co/MR3Y7pm/flawless1.png"
+              // src="https://i.ibb.co/wRqC4bC/flawless2.png"
+              alt="Dan Abramov"
+              boxSize="100px"
+            />
+          </Box>
+        </RouterLink>
 
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
           <Text
@@ -91,28 +95,32 @@ export default function Navbar() {
           direction={"row"}
           spacing={6}
         >
-          <Button
-            as={"a"}
-            fontSize={"sm"}
-            fontWeight={400}
-            variant={"link"}
-            href={"#"}
-          >
-            Sign In
-          </Button>
-          <Button
-            display={{ base: "none", md: "inline-flex" }}
-            fontSize={"sm"}
-            fontWeight={600}
-            color={"white"}
-            bg={"pink.400"}
-            href={"#"}
-            _hover={{
-              bg: "pink.300",
-            }}
-          >
-            Sign Up
-          </Button>
+          <RouterLink to="/login">
+            <Button
+              as={"a"}
+              fontSize={"sm"}
+              fontWeight={400}
+              variant={"link"}
+              href={"#"}
+            >
+              Sign In
+            </Button>
+          </RouterLink>
+          <RouterLink to="/signup">
+            <Button
+              display={{ base: "none", md: "inline-flex" }}
+              fontSize={"sm"}
+              fontWeight={600}
+              color={"white"}
+              bg={"pink.400"}
+              href={"#"}
+              _hover={{
+                bg: "pink.300",
+              }}
+            >
+              Sign Up
+            </Button>
+          </RouterLink>
         </Stack>
       </Flex>
 
@@ -290,11 +298,12 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Makeup",
         subLabel: "Eyes",
+        href: "/products",
       },
       {
         label: "Skin",
         subLabel: "Serum & Essence",
-        href: "#",
+        href: "",
       },
       {
         label: "Hair",
