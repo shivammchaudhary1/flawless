@@ -6,7 +6,8 @@ import OrderingPage from "./ComponentsUser/OrderingPage/OrderingPage";
 function App() {
   return (
     <div>
-      <LandingPage />
+      {/* <LandingPage /> */}
+      <OrderingPage />
     </div>
   );
 }
