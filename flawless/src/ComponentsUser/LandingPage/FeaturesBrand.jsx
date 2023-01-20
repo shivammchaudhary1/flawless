@@ -4,10 +4,10 @@ import { Box, Image, Grid, Center, HStack } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
 
 const getData = () => {
-  return axios.get(`http://localhost:8080/onlyatnykaa`);
+  return axios.get(`http://localhost:8080/featured`);
 };
 
-const OnlyatNykaa = () => {
+const FeaturesBrand = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -20,12 +20,12 @@ const OnlyatNykaa = () => {
     <>
       <Box p={5}>
         <Text fontSize={25} textAlign={["left", "center"]} fontWeight="bold">
-          Only at Nykaa
+          Featured Brands
         </Text>
       </Box>
 
       <Center>
-        <Grid templateColumns="repeat(3, 1fr)" gap={2}>
+        <Grid templateColumns="repeat(5, 1fr)" gap={5}>
           {data.map((item) => {
             return (
               <Box
@@ -71,4 +71,4 @@ const OnlyatNykaa = () => {
   );
 };
 
-export default OnlyatNykaa;
+export default FeaturesBrand;

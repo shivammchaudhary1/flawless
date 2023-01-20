@@ -88,5 +88,95 @@
       "brand_product_name": "Upto 50% Off + Serum on 999",
       "brand_product_description": "Fragrances for every mood"
     }
+  ],
+  "carousal1": [
+    {
+      "brand_image": "https://images-static.nykaa.com/uploads/9716ea78-057b-46c1-a5a6-72e0741c71b8.jpg?tr=w-240,cm-pad_resize",
+      "callout_text": "Trending 10 Fragrances"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/uploads/a75736c9-793c-4e69-9dce-558bcd011968.jpg?tr=w-240,cm-pad_resize",
+      "callout_text": "Pantone Color '23"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/uploads/92447a8b-4cbc-4cfa-9c65-818137cbddf7.jpg?tr=w-240,cm-pad_resize",
+      "callout_text": "Bridal Makeup"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/uploads/c01444d8-5b41-43af-b11c-a63fc9d4d5a6.jpg?tr=w-240,cm-pad_resize",
+      "callout_text": "2022 Winners"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/uploads/2e8f18d5-06d0-4aab-8d8e-7644aa54023f.jpg?tr=w-240,cm-pad_resize",
+      "callout_text": "Weight Management"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/uploads/4ea35342-cbb3-44ef-a556-9f1c0f749d93.jpg?tr=w-240,cm-pad_resize",
+      "callout_text": "Foundations"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/uploads/4162f650-31a3-4d41-a420-ac02caccce89.jpg?tr=w-240,cm-pad_resize",
+      "callout_text": "Highlighters"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/uploads/b2df2716-c39d-40a7-b2a5-76c728a2590b.jpg?tr=w-240,cm-pad_resize",
+      "callout_text": "Feminine Hygiene"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/uploads/fdc3b122-62f6-436e-ab58-e4a2c5a253e3.jpg?tr=w-240,cm-pad_resize",
+      "callout_text": "Beauty Supplements"
+    }
+  ],
+  "featured": [
+    {
+      "brand_image": "https://images-static.nykaa.com/creatives/447890f2-c927-44f9-94ed-09e902b77d9a/default.jpg?tr=w-240,cm-pad_resize",
+      "brand_product_name": "Pick a Gift",
+      "brand_product_description": "On Orders Rs.500+"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/creatives/c80a1c73-f27d-400b-aae9-1063f4eb92ba/default.png?tr=w-240,cm-pad_resize",
+      "brand_product_name": "Upto 30% Off",
+      "brand_product_description": "Sleeping Mask on 699"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/creatives/479b9a37-7965-4125-8de6-ba7809207a3a/default.png?tr=w-240,cm-pad_resize",
+      "brand_product_name": "Min 20% Off",
+      "brand_product_description": "Serum of 799 on 799"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/creatives/ab903c83-e546-4bbc-9008-ffce3cc34111/default.jpg?tr=w-240,cm-pad_resize",
+      "brand_product_name": "Ace Your Base!",
+      "brand_product_description": "15% off on Face!"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/creatives/0bbae885-82c3-4ecc-a6a6-dacc4c6575b0/default.jpg?tr=w-240,cm-pad_resize",
+      "brand_product_name": "Buy 1 Get 1",
+      "brand_product_description": "On Entire Range"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/creatives/c162bebb-6dfd-4dd2-9bb1-fcc91c03f8e2/default.jpg?tr=w-240,cm-pad_resize",
+      "brand_product_name": "Upto 20% Off",
+      "brand_product_description": "On Entire Range"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/creatives/108e2743-5b45-40bc-89f4-83b2748624f5/default.jpg?tr=w-240,cm-pad_resize",
+      "brand_product_name": "Upto 30% Off",
+      "brand_product_description": "On Entire Range"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/creatives/1f49c7f4-8682-4136-b7b9-2cdda4588e6a/default.jpg?tr=w-240,cm-pad_resize",
+      "brand_product_name": "Up To 40% Off",
+      "brand_product_description": "On Entire Range"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/creatives/8d0a43c4-9a58-4efd-b22b-8c976da11221/default.jpg?tr=w-240,cm-pad_resize",
+      "brand_product_name": "Upto 35% Off",
+      "brand_product_description": "Extra 10% off on 799"
+    },
+    {
+      "brand_image": "https://images-static.nykaa.com/creatives/b7bb4577-9d92-4078-bde2-22ee5f87a526/default.jpg?tr=w-240,cm-pad_resize",
+      "brand_product_name": "Upto 30% Off",
+      "brand_product_description": "on Entire Range"
+    }
   ]
 }
