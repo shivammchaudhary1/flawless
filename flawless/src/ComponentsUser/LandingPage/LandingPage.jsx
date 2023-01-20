@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../../Components/Navbar";
 import Carousal from "./Carousal";
 import AfterCarousal from "./AfterCarousal";
 import TopBrands from "./TopBrands";
@@ -8,8 +8,8 @@ import OnlyatNykaa from "./OnlyatNykaa";
 import AfterOnlyatNykaa from "./AfterOnlyatNykaa";
 import Carousal1 from "./Carousal1";
 import FeaturesBrand from "./FeaturesBrand";
-import Footer1 from "./Footer1";
-import Footer from "./Footer";
+import Footer1 from "../../Components/Footer1";
+import Footer from "../../Components/Footer";
 import EverDayEssentials from "./EverDayEssentials";
 import Luxe from "./Luxe";
 

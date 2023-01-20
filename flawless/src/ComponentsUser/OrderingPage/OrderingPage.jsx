@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "../LandingPage/Navbar";
+import Navbar from "../../Components/Navbar";
 import Carousal from "../LandingPage/Carousal";
 import Left from "./Left";
-import Footer from "../LandingPage/Footer";
-import Footer1 from "../LandingPage/Footer1";
+import Footer from "../../Components/Footer";
+import Footer1 from "../../Components/Footer1";
 
 const OrderingPage = () => {
   return (

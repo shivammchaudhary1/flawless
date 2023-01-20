@@ -10,8 +10,8 @@ const AllRoutes = () => {
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/checkout" element={<CheckoutPage />} />
-      <Route path="/" element={<LoginSignup />} />
-      <Route path="/" element={<OrderingPage />} />
+      <Route path="/login" element={<LoginSignup />} />
+      <Route path="/products" element={<OrderingPage />} />
     </Routes>
   );
 };
