@@ -56,7 +56,9 @@ export default function Navbar() {
         </Flex>
         <Box size="sm">
           <Image
-            src="https://i.ibb.co/10MwCh1/flawless.png"
+            // src="https://i.ibb.co/10MwCh1/flawless.png"
+            src="https://i.ibb.co/MR3Y7pm/flawless1.png"
+            // src="https://i.ibb.co/wRqC4bC/flawless2.png"
             alt="Dan Abramov"
             boxSize="100px"
           />
@@ -283,41 +285,144 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "Category",
+    label: "Categories",
     children: [
       {
         label: "Makeup",
-        subLabel: "Trending Design to inspire you",
-        href: "#",
+        subLabel: "Eyes",
       },
       {
         label: "Skin",
-        subLabel: "Up-and-coming Designers",
+        subLabel: "Serum & Essence",
+        href: "#",
+      },
+      {
+        label: "Hair",
+        subLabel: "Shampoo",
+        href: "#",
+      },
+      {
+        label: "Appliances",
+        subLabel: "Hair Dryers",
+        href: "#",
+      },
+      {
+        label: "Natural",
+        subLabel: "Face Wash",
+        href: "#",
+      },
+      {
+        label: "Mom & Baby",
+        subLabel: "Body Wash",
+        href: "#",
+      },
+      {
+        label: "Health & Wellness",
+        subLabel: "Multi Vitamins",
+        href: "#",
+      },
+      {
+        label: "Men",
+        subLabel: "Shavers",
         href: "#",
       },
     ],
   },
   {
-    label: "Find Work",
+    label: "Brands",
     children: [
       {
-        label: "Job Board",
-        subLabel: "Find your dream design job",
+        label: "Lakme'",
+      },
+      {
+        label: "Loreal",
+      },
+      {
+        label: "Lotus Herbal",
+      },
+      {
+        label: "Nivea",
+      },
+      {
+        label: "Bioteque",
+      },
+      {
+        label: "Olay",
+      },
+      {
+        label: "LUXE",
+      },
+    ],
+  },
+  {
+    label: "Luxe",
+    children: [
+      {
+        label: "Makeup Collection",
+        subLabel: "HighLighter",
         href: "#",
       },
       {
-        label: "Freelance Projects",
-        subLabel: "An exclusive list for contract work",
+        label: "Eyes",
+        subLabel: "Eye Shadow",
+        href: "#",
+      },
+      {
+        label: "Lip",
+        subLabel: "LipStick",
+        href: "#",
+      },
+      {
+        label: "Nails",
+        subLabel: "Nail Polish",
         href: "#",
       },
     ],
   },
   {
-    label: "Learn Design",
-    href: "#",
+    label: "Nykaa Fashion",
+    children: [
+      {
+        label: "Women",
+        subLabel: "Traditional",
+        href: "#",
+      },
+      {
+        label: "Men",
+        subLabel: "Ethenic",
+        href: "#",
+      },
+      {
+        label: "Home",
+        subLabel: "Kitchen & Dining",
+        href: "#",
+      },
+      {
+        label: "Top Brands",
+        subLabel: "Puma",
+        href: "#",
+      },
+    ],
   },
   {
-    label: "Hire Designers",
-    href: "#",
+    label: "Beauty Advice",
+    children: [
+      {
+        label: "Beauty Book",
+        subLabel: "Nykaa Digital Magazines",
+      },
+      {
+        label: "Nykaa TV",
+        subLabel: "MasterClass by Experts",
+      },
+      {
+        label: "Beauty Buying Guide",
+        subLabel: "Tip to explore",
+      },
+      {
+        label: "Top Brands",
+        subLabel: "Puma",
+      },
+    ],
   },
 ];
