@@ -9,16 +9,19 @@ import {
   Flex,
   Text,
   Center,
+  Input,
 } from "@chakra-ui/react";
 import { StarIcon } from "@chakra-ui/icons";
 import OrderingPageCarousal from "./OrderingPageCarousal";
 
-const getData = (params = { page: 1, limit: 10 }) => {
+const getData = (params = { page: 1, limit: 10, sort: "" }) => {
   // return axios.get(`http://localhost:8080/eye?_page=${page}&_limit=12`);
   return axios.get(`http://localhost:8080/eye`, {
     params: {
       _page: params.page,
       _limit: params.limit,
+      _sort: "product_price",
+      _order: params.sort,
     },
   });
 };
@@ -28,12 +31,15 @@ const Left = () => {
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(1);
+  const [sort, setSort] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     setLoading(true);
     getData({
       page: page,
       limit: 12,
+      sort: sort,
     })
       .then((res) => {
         setData(res.data);
@@ -43,14 +49,22 @@ const Left = () => {
         setError(true);
         setLoading(false);
       });
-  }, [page]);
+  }, [page, sort]);
 
   // sorting function
 
   const handleSortHTL = () => {
-    console.log("hi");
+    setSort("desc");
   };
-  const handleSortLTH = () => {};
+  const handleSortLTH = () => {
+    setSort("asc");
+  };
+
+  const handleChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
+  const handleClick = () => {};
 
   return loading ? (
     <h1>...Loding</h1>
@@ -109,6 +123,14 @@ const Left = () => {
               Price: Low to High
             </Button>
           </Flex>
+
+          <Input
+            placeholder="Search Product"
+            type="text"
+            value={searchTerm}
+            onChange={handleChange}
+          />
+          <Button onClick={handleClick}>Search</Button>
         </Flex>
       </Box>
 
@@ -120,6 +142,7 @@ const Left = () => {
             // <p>{e.product_giftcard}</p>
 
             <Box
+              key={property.product_name}
               align={"center"}
               maxW="sm"
               borderWidth="1px"
