@@ -13,8 +13,14 @@ import {
 import { StarIcon } from "@chakra-ui/icons";
 import OrderingPageCarousal from "./OrderingPageCarousal";
 
-const getData = (page) => {
-  return axios.get(`http://localhost:8080/eye?_page=${page}&_limit=12`);
+const getData = (params = { page: 1, limit: 10 }) => {
+  // return axios.get(`http://localhost:8080/eye?_page=${page}&_limit=12`);
+  return axios.get(`http://localhost:8080/eye`, {
+    params: {
+      _page: params.page,
+      _limit: params.limit,
+    },
+  });
 };
 
 const Left = () => {
@@ -25,7 +31,10 @@ const Left = () => {
 
   useEffect(() => {
     setLoading(true);
-    getData(page)
+    getData({
+      page: page,
+      limit: 12,
+    })
       .then((res) => {
         setData(res.data);
         setLoading(false);
@@ -35,7 +44,13 @@ const Left = () => {
         setLoading(false);
       });
   }, [page]);
-  console.log(data);
+
+  // sorting function
+
+  const handleSortHTL = () => {
+    console.log("hi");
+  };
+  const handleSortLTH = () => {};
 
   return loading ? (
     <h1>...Loding</h1>
@@ -61,6 +76,40 @@ const Left = () => {
             All Products
           </Text>
         </Center>
+      </Box>
+      {/* Sorting button  */}
+      <Box>
+        <Flex
+          // bg="#edf3f8"
+          _dark={{ bg: "#3e3e3e" }}
+          p={5}
+          alignItems="center"
+          justifyContent="flex-end"
+          w="80%"
+          gap="20px"
+          m="auto"
+        >
+          <Flex>
+            <Button
+              ml="5px"
+              mr="5px"
+              colorScheme="teal"
+              variant="outline"
+              onClick={handleSortHTL}
+            >
+              Price: High to Low
+            </Button>
+            <Button
+              ml="5px"
+              mr="5px"
+              colorScheme="teal"
+              variant="outline"
+              onClick={handleSortLTH}
+            >
+              Price: Low to High
+            </Button>
+          </Flex>
+        </Flex>
       </Box>
 
       {/* Card  */}
