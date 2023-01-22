@@ -13,8 +13,8 @@ import {
 
 import { StarIcon } from "@chakra-ui/icons";
 
-const getData = () => {
-  return axios.get(`http://localhost:8080/eye`);
+const getData = (page) => {
+  return axios.get(`http://localhost:8080/eye?_page=${page}&_limit=10`);
 };
 
 const Left = () => {
@@ -25,7 +25,7 @@ const Left = () => {
 
   useEffect(() => {
     setLoading(true);
-    getData()
+    getData(page)
       .then((res) => {
         setData(res.data);
         setLoading(false);
@@ -34,7 +34,7 @@ const Left = () => {
         setError(true);
         setLoading(false);
       });
-  }, []);
+  }, [page]);
   console.log(data);
 
   return loading ? (
@@ -144,9 +144,25 @@ const Left = () => {
           w="full"
         >
           <Flex>
-            <Button>previous</Button>
-            <Button>{page}</Button>
-            <Button>Next</Button>
+            <Button
+              colorScheme="teal"
+              variant="outline"
+              onClick={() => setPage(page - 1)}
+              isDisabled={page === 1}
+            >
+              Previous
+            </Button>
+            <Button colorScheme="teal" variant="solid">
+              {page}
+            </Button>
+
+            <Button
+              colorScheme="teal"
+              variant="outline"
+              onClick={() => setPage(page + 1)}
+            >
+              Next
+            </Button>
           </Flex>
         </Flex>
       </Box>
