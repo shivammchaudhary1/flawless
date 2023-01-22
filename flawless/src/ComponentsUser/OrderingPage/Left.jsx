@@ -155,7 +155,6 @@ const Left = () => {
             <Button colorScheme="teal" variant="solid">
               {page}
             </Button>
-
             <Button
               colorScheme="teal"
               variant="outline"
