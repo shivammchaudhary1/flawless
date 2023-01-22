@@ -4,17 +4,17 @@ import {
   Box,
   Image,
   Badge,
-  SimpleGrid,
   Grid,
   Button,
   Flex,
   Text,
+  Center,
 } from "@chakra-ui/react";
-
 import { StarIcon } from "@chakra-ui/icons";
+import OrderingPageCarousal from "./OrderingPageCarousal";
 
 const getData = (page) => {
-  return axios.get(`http://localhost:8080/eye?_page=${page}&_limit=10`);
+  return axios.get(`http://localhost:8080/eye?_page=${page}&_limit=12`);
 };
 
 const Left = () => {
@@ -42,7 +42,27 @@ const Left = () => {
   ) : error ? (
     <h1>Something Went Wrong</h1>
   ) : (
-    <>
+    <Box w="90%" m="auto">
+      <OrderingPageCarousal />
+
+      <Box p="10px" mb="10px">
+        <Center>
+          <Text fontSize="25px" fontWeight="semibold">
+            Eye Makeup Products
+          </Text>
+        </Center>
+      </Box>
+      <Box w="80%" m="auto" mb="20px">
+        <Image src="https://i.ibb.co/wzDw2Tp/nykaa-image.png" alt="error" />
+      </Box>
+      <Box>
+        <Center p={25}>
+          <Text fontSize="25px" fontWeight="semibold">
+            All Products
+          </Text>
+        </Center>
+      </Box>
+
       {/* Card  */}
 
       <Box w="80%" m="auto">
@@ -122,6 +142,7 @@ const Left = () => {
                     bg="#EA3891"
                     color="#FFFFFF"
                     _hover={{ bg: "#CE0A6C" }}
+                    ml="5px"
                   >
                     Add to cart
                   </Button>
@@ -165,7 +186,7 @@ const Left = () => {
           </Flex>
         </Flex>
       </Box>
-    </>
+    </Box>
   );
 };
 
