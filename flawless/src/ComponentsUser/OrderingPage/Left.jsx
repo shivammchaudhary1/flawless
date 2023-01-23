@@ -137,7 +137,14 @@ const Left = () => {
       {/* Card  */}
 
       <Box w="80%" m="auto">
-        <Grid templateColumns="repeat(3, 1fr)" gap={6}>
+        <Grid
+          templateColumns={{
+            base: "repeat(1, 1fr)",
+            md: "repeat(2, 1fr)",
+            lg: "repeat(3, 1fr)",
+          }}
+          gap={6}
+        >
           {data.map((property) => (
             // <p>{e.product_giftcard}</p>
 
