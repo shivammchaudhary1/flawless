@@ -29,6 +29,7 @@ Estimated time to complete the project is 4 days
 Link for project: (https://github.com/shivammchaudhary1/rampant-quiet-9349)
 
 
-Developed by: 
-Shivam Kumar Chaudhary                                    Instructional Associate
-student code : fw21_1148                                       Mohsin Iqbal
+Developed by: Shivam Kumar Chaudhary (student code : fw21_1148)
+
+Instructional Associate
+Mohsin Iqbal
