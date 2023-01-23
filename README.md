@@ -5,15 +5,7 @@ Original Website : https://www.nykaa.com/
 
 Unique Project Code : rampant-quiet-9349
 
-This project, named Nykaa => flawless, uses the following technologies:
 
-HTML
-CSS
-JavaScript
-React
-Chakra UI
-Axios
-React Router DOM
 
 To view the website, please follow these steps:
 
@@ -27,5 +19,3 @@ Estimated time to complete the project is 4 days
 
 Link for project: (https://github.com/shivammchaudhary1/rampant-quiet-9349)
 
-Developed by Shivam Kumar Chaudhary (student code : fw21_1148)
-IA Manager: Mohsin Iqbal
