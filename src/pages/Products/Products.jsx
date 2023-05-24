@@ -1,9 +1,9 @@
-import Left from "./Left";
+import ProductFunctionality from "./ProductFunctionality";
 
 const Products = () => {
   return (
     <div>
-      <Left />
+      <ProductFunctionality />
     </div>
   );
 };

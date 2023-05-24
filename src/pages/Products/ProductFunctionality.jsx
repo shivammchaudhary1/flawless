@@ -14,7 +14,7 @@ import {
 import { StarIcon } from "@chakra-ui/icons";
 import ProductsCarousal from "./ProductsCarousal";
 
-const getData = (params = { page: 1, limit: 10, sort: "" }) => {
+const getData = (params = { page: 1, limit: 10, sort: "", searchTerm: "" }) => {
   // return axios.get(`http://localhost:8080/eye?_page=${page}&_limit=12`);
   return axios.get(`http://localhost:8080/eye`, {
     params: {
@@ -22,11 +22,12 @@ const getData = (params = { page: 1, limit: 10, sort: "" }) => {
       _limit: params.limit,
       _sort: "product_price",
       _order: params.sort,
+      q: params.searchTerm,
     },
   });
 };
 
-const Left = () => {
+const ProductFunctionality = () => {
   const [data, setData] = useState([]);
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -40,9 +41,11 @@ const Left = () => {
       page: page,
       limit: 12,
       sort: sort,
+      searchTerm: searchTerm,
     })
       .then((res) => {
         setData(res.data);
+
         setLoading(false);
       })
       .catch((error) => {
@@ -50,6 +53,7 @@ const Left = () => {
         setLoading(false);
       });
   }, [page, sort]);
+  console.log(data);
 
   // sorting function
 
@@ -62,9 +66,28 @@ const Left = () => {
 
   const handleChange = (e) => {
     setSearchTerm(e.target.value);
+    // console.log(searchTerm);
   };
 
-  const handleClick = () => {};
+  const handleClick = () => {
+    setLoading(true);
+    setPage(1); // Reset the page to 1 when performing a new search
+
+    getData({
+      page: 1, // Set the page to 1 when performing a new search
+      limit: 12,
+      sort: sort,
+      searchTerm: searchTerm,
+    })
+      .then((res) => {
+        setData(res.data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        setError(true);
+        setLoading(false);
+      });
+  };
 
   return loading ? (
     <h1>...Loding</h1>
@@ -188,10 +211,10 @@ const Left = () => {
                     fontSize="sm"
                     fontWeight="semibold"
                   >
-                    MRP : {property.product_price}
+                    MRP : ₹ {property.product_price}
                   </Box>
                   <Text textDecoration={"line-through"} color={"gray.600"}>
-                    {property.product_mrp}
+                    ₹ {property.product_mrp}
                   </Text>
                 </Box>
                 <Box fontSize="sm" color="#FD7091">
@@ -269,4 +292,4 @@ const Left = () => {
   );
 };
 
-export default Left;
+export default ProductFunctionality;
