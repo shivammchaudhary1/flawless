@@ -1,17 +1,15 @@
-import LandingPage from "./ComponentsUser/LandingPage/LandingPage";
-import CheckoutPage from "./ComponentsUser/CheckoutPage/CheckoutPage";
-import LoginSignup from "./ComponentsUser/LoginSignup/LoginSignup";
-import OrderingPage from "./ComponentsUser/OrderingPage/OrderingPage";
 import AllRoutes from "./Components/AllRoutes";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import Footer1 from "./Components/Footer1";
 
 function App() {
   return (
     <div>
-      {/* <LandingPage /> */}
-      {/* <OrderingPage />
-      <LoginSignup />
-      <CheckoutPage /> */}
+      <Navbar />
       <AllRoutes />
+      <Footer1 />
+      <Footer />
     </div>
   );
 }

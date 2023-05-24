@@ -8,11 +8,8 @@ import Loginexp from "./Loginexp";
 const LoginSignup = () => {
   return (
     <div>
-      <Navbar />
       <LoginComponent />
       {/* <Loginexp /> */}
-      <Footer1 />
-      <Footer />
     </div>
   );
 };
