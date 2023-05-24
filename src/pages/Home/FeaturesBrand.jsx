@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { Box, Image, Grid, Center, HStack } from "@chakra-ui/react";
+import { Box, Image, Grid, Center } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
 
 const getData = () => {

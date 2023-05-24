@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Stack, Box, Center } from "@chakra-ui/react";
+import { Image, Stack,Center } from "@chakra-ui/react";
 
 const AfterCarousal = () => {
   return (

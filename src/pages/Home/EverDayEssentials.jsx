@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "better-react-carousel";
-import { Box, Text, Image, Input, Center, HStack } from "@chakra-ui/react";
+import { Box, Text, Image, Center, HStack } from "@chakra-ui/react";
 
 const EverDayEssentials = () => {
   return (
@@ -28,6 +28,7 @@ const EverDayEssentials = () => {
                 <img
                   width="auto"
                   src="https://images-static.nykaa.com/uploads/c59db0d6-872e-4fd1-bc64-8331897b3965.jpg?tr=w-240,cm-pad_resize"
+                  alt="error"
                 />
                 <p
                   style={{
@@ -45,6 +46,7 @@ const EverDayEssentials = () => {
                 <img
                   width="auto"
                   src="https://images-static.nykaa.com/uploads/8f8b55d5-0bfc-4545-ba05-df0177672474.jpg?tr=w-240,cm-pad_resize"
+                  alt="error"
                 />
                 <p
                   style={{
@@ -62,6 +64,7 @@ const EverDayEssentials = () => {
                 <img
                   width="auto"
                   src="https://images-static.nykaa.com/uploads/aff3b609-5b3e-4d8c-8ccb-ad9157824b2d.jpg?tr=w-240,cm-pad_resize"
+                  alt="error"
                 />
                 <p
                   style={{
@@ -79,6 +82,7 @@ const EverDayEssentials = () => {
                 <img
                   width="auto"
                   src="https://images-static.nykaa.com/uploads/e3424d3e-3c6f-4dd2-9cd3-d9ce46570133.jpg?tr=w-240,cm-pad_resize"
+                  alt="error"
                 />
                 <p
                   style={{
@@ -96,6 +100,7 @@ const EverDayEssentials = () => {
                 <img
                   width="auto"
                   src="https://images-static.nykaa.com/uploads/4bec33e3-9145-442b-9171-308834402eb3.jpg?tr=w-240,cm-pad_resize"
+                  alt="error"
                 />
                 <p
                   style={{
@@ -114,6 +119,7 @@ const EverDayEssentials = () => {
                 <img
                   width="auto"
                   src="https://images-static.nykaa.com/uploads/d4eba2cb-bbf9-4f6c-ac47-281819f52385.jpg?tr=w-240,cm-pad_resize"
+                  alt="error"
                 />
                 <p
                   style={{

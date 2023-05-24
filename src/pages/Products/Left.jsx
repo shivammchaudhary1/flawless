@@ -12,7 +12,7 @@ import {
   Input,
 } from "@chakra-ui/react";
 import { StarIcon } from "@chakra-ui/icons";
-import OrderingPageCarousal from "./OrderingPageCarousal";
+import ProductsCarousal from "./ProductsCarousal";
 
 const getData = (params = { page: 1, limit: 10, sort: "" }) => {
   // return axios.get(`http://localhost:8080/eye?_page=${page}&_limit=12`);
@@ -72,7 +72,7 @@ const Left = () => {
     <h1>Something Went Wrong</h1>
   ) : (
     <Box w="90%" m="auto">
-      <OrderingPageCarousal />
+      <ProductsCarousal />
 
       <Box p="10px" mb="10px">
         <Center>

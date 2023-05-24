@@ -75,10 +75,10 @@ export default function Navbar() {
             color={useColorModeValue("gray.800", "white")}
           >
             {/* <Image
-                src="https://i.ibb.co/10MwCh1/flawless.png"
-                alt="Dan Abramov"
-                boxSize="100px"
-              /> */}
+                  src="https://i.ibb.co/10MwCh1/flawless.png"
+                  alt="Dan Abramov"
+                  boxSize="100px"
+                /> */}
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -287,6 +287,7 @@ const MobileNavItem = ({ label, children, href }) => {
 const NAV_ITEMS = [
   {
     label: "Categories",
+    href: "/products",
     children: [
       {
         label: "Makeup",
@@ -296,37 +297,37 @@ const NAV_ITEMS = [
       {
         label: "Skin",
         subLabel: "Serum & Essence",
-        href: "",
+        href: "/products",
       },
       {
         label: "Hair",
         subLabel: "Shampoo",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Appliances",
         subLabel: "Hair Dryers",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Natural",
         subLabel: "Face Wash",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Mom & Baby",
         subLabel: "Body Wash",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Health & Wellness",
         subLabel: "Multi Vitamins",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Men",
         subLabel: "Shavers",
-        href: "#",
+        href: "/products",
       },
     ],
   },
@@ -335,24 +336,31 @@ const NAV_ITEMS = [
     children: [
       {
         label: "Lakme'",
+        href: "/products",
       },
       {
         label: "Loreal",
+        href: "/products",
       },
       {
         label: "Lotus Herbal",
+        href: "/products",
       },
       {
         label: "Nivea",
+        href: "/products",
       },
       {
         label: "Bioteque",
+        href: "/products",
       },
       {
         label: "Olay",
+        href: "/products",
       },
       {
         label: "LUXE",
+        href: "/products",
       },
     ],
   },
@@ -362,22 +370,22 @@ const NAV_ITEMS = [
       {
         label: "Makeup Collection",
         subLabel: "HighLighter",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Eyes",
         subLabel: "Eye Shadow",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Lip",
         subLabel: "LipStick",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Nails",
         subLabel: "Nail Polish",
-        href: "#",
+        href: "/products",
       },
     ],
   },
@@ -387,22 +395,22 @@ const NAV_ITEMS = [
       {
         label: "Women",
         subLabel: "Traditional",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Men",
         subLabel: "Ethenic",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Home",
         subLabel: "Kitchen & Dining",
-        href: "#",
+        href: "/products",
       },
       {
         label: "Top Brands",
         subLabel: "Puma",
-        href: "#",
+        href: "/products",
       },
     ],
   },

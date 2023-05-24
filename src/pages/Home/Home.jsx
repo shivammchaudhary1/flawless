@@ -10,7 +10,7 @@ import FeaturesBrand from "./FeaturesBrand";
 import EverDayEssentials from "./EverDayEssentials";
 import Luxe from "./Luxe";
 
-const LandingPage = () => {
+const Home = () => {
   return (
     <div>
       <Carousal />
@@ -27,4 +27,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Home;

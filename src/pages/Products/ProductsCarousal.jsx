@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Box, Image, Flex, Text, HStack } from "@chakra-ui/react";
 
-const OrderingPageCarousal = () => {
+const ProductsCarousal = () => {
   const arrowStyles = {
     cursor: "pointer",
     pos: "absolute",
@@ -81,7 +81,7 @@ const OrderingPageCarousal = () => {
               </Text>
               <Image
                 src={slide.img}
-                alt="carousel image"
+                alt="carousel"
                 boxSize="100%"
                 backgroundSize="cover"
               />
@@ -118,4 +118,5 @@ const OrderingPageCarousal = () => {
     </Flex>
   );
 };
-export default OrderingPageCarousal;
+
+export default ProductsCarousal;

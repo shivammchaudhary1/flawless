@@ -8,7 +8,6 @@ import {
   useColorModeValue,
   Image,
 } from "@chakra-ui/react";
-import Footer1 from "./Footer1";
 
 const ListHeader = ({ children }) => {
   return (
@@ -76,7 +75,6 @@ export default function Footer() {
         </Container>
       </Box>
       <Image src="https://i.ibb.co/bbGCW7F/bottom-copy.png" alt="name" />
-      
     </>
   );
 }
