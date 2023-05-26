@@ -951,5 +951,29 @@
       "rating": 3.5,
       "id": 69
     }
+  ],
+  "buy": [
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f82ef778903487004818_1.jpg",
+      "product_name": "Miss Claire Glimmersticks For Eyes",
+      "product_mrp": 65,
+      "product_price": 59,
+      "product_off": "10% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": 3880,
+      "rating": 5,
+      "id": 55
+    },
+    {
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/1/81f3c8fBLUEH00000390_1.jpg",
+      "product_name": "Blue Heaven 10x Volumising Mascara - Black",
+      "product_mrp": 90,
+      "product_price": 77,
+      "product_off": "15% Off",
+      "product_giftcard": "Get Free Product",
+      "product_rating": 1575,
+      "rating": 2,
+      "id": 38
+    }
   ]
 }

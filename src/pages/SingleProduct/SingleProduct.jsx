@@ -1,6 +1,5 @@
 import {
   Box,
-  chakra,
   Container,
   Stack,
   Text,
@@ -11,17 +10,78 @@ import {
   Heading,
   SimpleGrid,
   StackDivider,
-  useColorModeValue,
-  VisuallyHidden,
   List,
   ListItem,
 } from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { useEffect, useState } from "react";
 import { MdLocalShipping } from "react-icons/md";
+import { useParams } from "react-router-dom";
+import axios from "axios";
 
-const SingleProduct = ({ id }) => {
+const SingleProduct = () => {
+  const [data, setData] = useState({});
+  const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const { id } = useParams();
 
-  return (
+  const getData = () => {
+    axios
+      .get(`http://localhost:8080/eye?id=${id}`)
+      .then((res) => {
+        // console.log(res.data[0]);
+        setData(res.data[0]);
+      })
+      .catch((err) => {
+        console.log({ error: err });
+        setError(true);
+        setLoading(false);
+      });
+  };
+
+  const handleBuy = () => {
+    axios
+      .post("http://localhost:8080/buy", data, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((error) => {
+        console.log({ error: error.message });
+      });
+  };
+
+  useEffect(() => {
+    setLoading(true);
+    getData();
+    setLoading(false);
+
+    //post method
+  }, []);
+
+  //post
+
+  const { product_image, product_name, product_price } = data;
+
+  return loading ? (
+    <Heading
+      lineHeight={1.1}
+      fontWeight={600}
+      fontSize={{ base: "2xl", sm: "4xl", lg: "5xl" }}
+    >
+      ...Loading
+    </Heading>
+  ) : error ? (
+    <Heading
+      lineHeight={1.1}
+      fontWeight={600}
+      fontSize={{ base: "2xl", sm: "4xl", lg: "5xl" }}
+    >
+      ...Something Went Wrong
+    </Heading>
+  ) : (
     <Container maxW={"7xl"}>
       <SimpleGrid
         columns={{ base: 1, lg: 2 }}
@@ -32,10 +92,8 @@ const SingleProduct = ({ id }) => {
           <Image
             rounded={"md"}
             alt={"product image"}
-            src={
-              "https://images.unsplash.com/photo-1596516109370-29001ec8ec36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyODE1MDl8MHwxfGFsbHx8fHx8fHx8fDE2Mzg5MzY2MzE&ixlib=rb-1.2.1&q=80&w=1080"
-            }
-            fit={"cover"}
+            src={product_image}
+            fit={"contain"}
             align={"center"}
             w={"100%"}
             h={{ base: "100%", sm: "400px", lg: "500px" }}
@@ -48,46 +106,34 @@ const SingleProduct = ({ id }) => {
               fontWeight={600}
               fontSize={{ base: "2xl", sm: "4xl", lg: "5xl" }}
             >
-              Automatic Watch
+              {product_name}
             </Heading>
-            <Text
-              color={useColorModeValue("gray.900", "gray.400")}
-              fontWeight={300}
-              fontSize={"2xl"}
-            >
-              $350.00 USD
+            <Text color="#FC2779" fontWeight={500} fontSize={"2xl"}>
+              ₹ {product_price} Indian Rupee
             </Text>
           </Box>
 
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={"column"}
-            divider={
-              <StackDivider
-                borderColor={useColorModeValue("gray.200", "gray.600")}
-              />
-            }
+            divider={<StackDivider borderColor="#FC2779" />}
           >
             <VStack spacing={{ base: 4, sm: 6 }}>
-              <Text
-                color={useColorModeValue("gray.500", "gray.400")}
-                fontSize={"2xl"}
-                fontWeight={"300"}
-              >
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore
+              <Text color="#7B899D" fontSize={"2xl"} fontWeight={"300"}>
+                Are you ready to enhance your natural beauty and embrace a
+                radiant, confident you?
               </Text>
               <Text fontSize={"lg"}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
-                aliquid amet at delectus doloribus dolorum expedita hic, ipsum
-                maxime modi nam officiis porro, quae, quisquam quos
-                reprehenderit velit? Natus, totam.
+                Unlock your natural beauty potential with{" "}
+                <span>{`${product_name}`}</span>. Embrace the confidence that
+                comes from having skin that looks and feels its best. Start your
+                journey towards radiant and healthy skin today.
               </Text>
             </VStack>
             <Box>
               <Text
                 fontSize={{ base: "16px", lg: "18px" }}
-                color={useColorModeValue("yellow.500", "yellow.300")}
+                color="#D7A032"
                 fontWeight={"500"}
                 textTransform={"uppercase"}
                 mb={"4"}
@@ -97,73 +143,16 @@ const SingleProduct = ({ id }) => {
 
               <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
                 <List spacing={2}>
-                  <ListItem>Chronograph</ListItem>
-                  <ListItem>Master Chronometer Certified</ListItem>{" "}
-                  <ListItem>Tachymeter</ListItem>
+                  <ListItem>Skin Nourishment</ListItem>
+                  <ListItem>Anti-Aging</ListItem>{" "}
+                  <ListItem>Sun Protection</ListItem>
                 </List>
                 <List spacing={2}>
-                  <ListItem>Anti‑magnetic</ListItem>
-                  <ListItem>Chronometer</ListItem>
-                  <ListItem>Small seconds</ListItem>
+                  <ListItem>Color Enhancement</ListItem>
+                  <ListItem>Moisturization</ListItem>
+                  <ListItem>Long-Lasting Effects</ListItem>
                 </List>
               </SimpleGrid>
-            </Box>
-            <Box>
-              <Text
-                fontSize={{ base: "16px", lg: "18px" }}
-                color={useColorModeValue("yellow.500", "yellow.300")}
-                fontWeight={"500"}
-                textTransform={"uppercase"}
-                mb={"4"}
-              >
-                Product Details
-              </Text>
-
-              <List spacing={2}>
-                <ListItem>
-                  <Text as={"span"} fontWeight={"bold"}>
-                    Between lugs:
-                  </Text>{" "}
-                  20 mm
-                </ListItem>
-                <ListItem>
-                  <Text as={"span"} fontWeight={"bold"}>
-                    Bracelet:
-                  </Text>{" "}
-                  leather strap
-                </ListItem>
-                <ListItem>
-                  <Text as={"span"} fontWeight={"bold"}>
-                    Case:
-                  </Text>{" "}
-                  Steel
-                </ListItem>
-                <ListItem>
-                  <Text as={"span"} fontWeight={"bold"}>
-                    Case diameter:
-                  </Text>{" "}
-                  42 mm
-                </ListItem>
-                <ListItem>
-                  <Text as={"span"} fontWeight={"bold"}>
-                    Dial color:
-                  </Text>{" "}
-                  Black
-                </ListItem>
-                <ListItem>
-                  <Text as={"span"} fontWeight={"bold"}>
-                    Crystal:
-                  </Text>{" "}
-                  Domed, scratch‑resistant sapphire crystal with anti‑reflective
-                  treatment inside
-                </ListItem>
-                <ListItem>
-                  <Text as={"span"} fontWeight={"bold"}>
-                    Water resistance:
-                  </Text>{" "}
-                  5 bar (50 metres / 167 feet){" "}
-                </ListItem>
-              </List>
             </Box>
           </Stack>
 
@@ -173,15 +162,17 @@ const SingleProduct = ({ id }) => {
             mt={8}
             size={"lg"}
             py={"7"}
-            bg={useColorModeValue("gray.900", "gray.50")}
-            color={useColorModeValue("white", "gray.900")}
+            borderRadius={"10px"}
+            bg="#FC2779"
+            color="#fff"
             textTransform={"uppercase"}
             _hover={{
               transform: "translateY(2px)",
               boxShadow: "lg",
             }}
+            onClick={handleBuy}
           >
-            Add to cart
+            Buy Now
           </Button>
 
           <Stack direction="row" alignItems="center" justifyContent={"center"}>
