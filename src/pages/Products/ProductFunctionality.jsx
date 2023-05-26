@@ -13,9 +13,10 @@ import {
 } from "@chakra-ui/react";
 import { StarIcon } from "@chakra-ui/icons";
 import ProductsCarousal from "./ProductsCarousal";
+import ProductCard from "./ProductCard";
+import SingleProduct from "../SingleProduct/SingleProduct";
 
 const getData = (params = { page: 1, limit: 10, sort: "", searchTerm: "" }) => {
-  // return axios.get(`http://localhost:8080/eye?_page=${page}&_limit=12`);
   return axios.get(`http://localhost:8080/eye`, {
     params: {
       _page: params.page,
@@ -159,7 +160,16 @@ const ProductFunctionality = () => {
 
       {/* Card  */}
 
-      <Box w="80%" m="auto">
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
+
+      {/* <ProductCard /> */}
+
+      <Box w="80%" m="auto" cursor="pointer">
         <Grid
           templateColumns={{
             base: "repeat(1, 1fr)",
@@ -168,92 +178,34 @@ const ProductFunctionality = () => {
           }}
           gap={6}
         >
-          {data.map((property) => (
-            // <p>{e.product_giftcard}</p>
-
-            <Box
-              key={property.product_name}
-              align={"center"}
-              maxW="sm"
-              borderWidth="1px"
-              borderRadius="lg"
-              overflow="hidden"
-            >
-              <Box _hover={{ boxSize: "200px" }}>
-                <Image
-                  src={property.product_image}
-                  alt={property.product_name}
+          {data.map((property) => {
+            return (
+              <>
+                <ProductCard
+                  name={property.product_name}
+                  image={property.product_image}
+                  off={property.product_off}
+                  price={property.product_price}
+                  mrp={property.product_mrp}
+                  giftcard={property.product_giftcard}
+                  rating={property.rating}
+                  id={property.id}
                 />
-              </Box>
-
-              <Box p="6">
-                <Box display="flex" alignItems="baseline">
-                  <Badge borderRadius="full" px="2" colorScheme="teal">
-                    {property.product_off}
-                  </Badge>
-                </Box>
-
-                <Box
-                  mt="1"
-                  fontWeight="semibold"
-                  as="h3"
-                  lineHeight="tight"
-                  noOfLines={3}
-                  align={"left"}
-                >
-                  {property.product_name}
-                </Box>
-
-                <Box>
-                  <Box
-                    as="span"
-                    color="gray.600"
-                    fontSize="sm"
-                    fontWeight="semibold"
-                  >
-                    MRP : ₹ {property.product_price}
-                  </Box>
-                  <Text textDecoration={"line-through"} color={"gray.600"}>
-                    ₹ {property.product_mrp}
-                  </Text>
-                </Box>
-                <Box fontSize="sm" color="#FD7091">
-                  {property.product_giftcard}
-                </Box>
-
-                <Box display="flex" mt="2" alignItems="center">
-                  {Array(5)
-                    .fill("")
-                    .map((_, i) => (
-                      <StarIcon
-                        align={"center"}
-                        key={i}
-                        color={i < property.rating ? "teal.500" : "gray.300"}
-                      />
-                    ))}
-                  <Box
-                    as="span"
-                    ml="2"
-                    color="gray.600"
-                    fontSize="sm"
-                    align={"center"}
-                  >
-                    {property.product_rating} reviews
-                  </Box>
-                  <Button
-                    bg="#EA3891"
-                    color="#FFFFFF"
-                    _hover={{ bg: "#CE0A6C" }}
-                    ml="5px"
-                  >
-                    Add to cart
-                  </Button>
-                </Box>
-              </Box>
-            </Box>
-          ))}
+              </>
+            );
+          })}
         </Grid>
       </Box>
+
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
+      {/* Card  */}
 
       {/* Pagination  */}
 
