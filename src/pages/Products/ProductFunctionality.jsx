@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import {
   Box,
   Image,
-  Badge,
   Grid,
   Button,
   Flex,
@@ -14,7 +13,7 @@ import {
 import { StarIcon } from "@chakra-ui/icons";
 import ProductsCarousal from "./ProductsCarousal";
 import ProductCard from "./ProductCard";
-import SingleProduct from "../SingleProduct/SingleProduct";
+
 
 const getData = (params = { page: 1, limit: 10, sort: "", searchTerm: "" }) => {
   return axios.get(`http://localhost:8080/eye`, {
@@ -190,6 +189,7 @@ const ProductFunctionality = () => {
                   giftcard={property.product_giftcard}
                   rating={property.rating}
                   id={property.id}
+                  review={property.product_rating}
                 />
               </>
             );

@@ -333,6 +333,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Brands",
+    href: "/products",
     children: [
       {
         label: "Lakme'",
@@ -366,6 +367,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Luxe",
+    href: "/products",
     children: [
       {
         label: "Makeup Collection",
@@ -391,6 +393,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Nykaa Fashion",
+    href: "/products",
     children: [
       {
         label: "Women",
@@ -416,6 +419,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Beauty Advice",
+    href: "/products",
     children: [
       {
         label: "Beauty Book",
