@@ -10,34 +10,39 @@ import {
   Button,
 } from "@chakra-ui/react";
 import { useDisclosure } from "@chakra-ui/react";
-import axios from "axios";
 import { Link as RouterLink } from "react-router-dom";
+import axios from "axios";
 
-const Alert = ({ data }) => {
+const CheckoutAlert = ({ fullName, streetAddress, zipCode, city, email }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const cancelRef = React.useRef();
 
-  const handleBuy = () => {
+  //   onClick={handleSubmit}
+
+  const handleSubmit = async () => {
     onOpen();
-    axios
-      .post("http://localhost:8080/buy", data, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-      .then((response) => {
-        // console.log(response.data);
-      })
-      .catch((error) => {
-        console.log({ error: error.message });
-      });
+    try {
+      const response = await axios.post(
+        "http://localhost:8080/shipping-address",
+        {
+          fullName,
+          streetAddress,
+          zipCode,
+          city,
+          email,
+        }
+      );
+      //   console.log("Response:", response.data);
+    } catch (error) {
+      console.log("Error:", error);
+    }
   };
 
   return (
     <>
       <Button
         colorScheme="red"
-        onClick={handleBuy}
+        onClick={handleSubmit}
         rounded={"none"}
         w={"full"}
         mt={8}
@@ -52,7 +57,7 @@ const Alert = ({ data }) => {
           boxShadow: "lg",
         }}
       >
-        Buy Now
+        Pay
       </Button>
 
       <AlertDialog
@@ -63,12 +68,10 @@ const Alert = ({ data }) => {
         <AlertDialogOverlay>
           <AlertDialogContent>
             <AlertDialogHeader fontSize="lg" fontWeight="bold">
-              Product Added Successfully
+              Product Ordered Successfully
             </AlertDialogHeader>
 
-            <AlertDialogBody>
-              Click on the Check Out button to Continue
-            </AlertDialogBody>
+            <AlertDialogBody>Thank You for Choosing us !</AlertDialogBody>
 
             <AlertDialogFooter>
               <Button ref={cancelRef} onClick={onClose}>
@@ -79,13 +82,13 @@ const Alert = ({ data }) => {
                 colorScheme="red"
                 //new method for changing routes
                 as={RouterLink}
-                to="/checkout"
+                to="/"
                 //new method for changing routes
                 onClick={onClose}
                 ml={3}
                 bg="#FC2779"
               >
-                Checkout
+                OK
               </Button>
             </AlertDialogFooter>
           </AlertDialogContent>
@@ -95,4 +98,4 @@ const Alert = ({ data }) => {
   );
 };
 
-export default Alert;
+export default CheckoutAlert;

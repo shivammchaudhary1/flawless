@@ -16,8 +16,13 @@ import {
   FormHelperText,
   Image,
   Button,
+  Alert,
+  AlertIcon,
+  AlertTitle,
+  AlertDescription,
 } from "@chakra-ui/react";
 import { FaPlusCircle, FaMinusCircle } from "react-icons/fa";
+import CheckoutAlert from "./CheckoutAlert";
 
 const getData = () => {
   return axios.get("http://localhost:8080/buy");
@@ -28,11 +33,16 @@ const Checkout = () => {
   const [total, setTotal] = useState(0);
   const [shipping, setShipping] = useState(99);
   const [final, setFinal] = useState(0);
+  const [fullName, setFullName] = useState("");
+  const [streetAddress, setStreetAddress] = useState("");
+  const [zipCode, setZipCode] = useState("");
+  const [city, setCity] = useState("");
+  const [email, setEmail] = useState("");
 
   useEffect(() => {
     getData()
       .then((res) => {
-        console.log(res.data);
+        // console.log(res.data);
         setData(res.data);
       })
       .catch((err) => {
@@ -56,44 +66,67 @@ const Checkout = () => {
     setShipping(Number(e.target.value));
   };
 
+  const handleRemove = async (id) => {
+    try {
+      await axios.delete(`http://localhost:8080/buy/${id}`);
+      const updatedData = data.filter((e) => e.id !== id);
+      setData(updatedData);
+    } catch (error) {
+      console.log("Error:", error);
+    }
+  };
   return (
     <Box>
       <HStack spacing="40px" align="flex-start">
-        <Box w="50%" border="1px solid black" p="4">
+        <Box w="50%" p="4">
           <Heading size="md" mb="4">
             Shipping Address
           </Heading>
           <FormControl>
             <FormLabel>Full Name</FormLabel>
-            <Input type="text" />
+            <Input
+              type="text"
+              value={fullName}
+              onChange={(e) => setFullName(e.target.value)}
+            />
             <FormLabel>Street Address</FormLabel>
-            <Input type="text" />
+            <Input
+              type="text"
+              value={streetAddress}
+              onChange={(e) => setStreetAddress(e.target.value)}
+            />
             <HStack spacing="20px" mt="2">
               <FormControl>
                 <FormLabel>Zip Code</FormLabel>
-                <Input type="text" />
+                <Input
+                  type="number"
+                  value={zipCode}
+                  onChange={(e) => setZipCode(e.target.value)}
+                />
               </FormControl>
               <FormControl>
                 <FormLabel>City</FormLabel>
-                <Input type="text" />
+                <Input
+                  type="text"
+                  value={city}
+                  onChange={(e) => setCity(e.target.value)}
+                />
               </FormControl>
             </HStack>
             <FormLabel>Email Address</FormLabel>
-            <Input type="email" />
+            <Input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
             <FormHelperText>We'll never share your email.</FormHelperText>
-
-            <CheckboxGroup colorScheme="red" defaultValue={[""]} mt="4">
-              <HStack spacing="4">
-                <Checkbox value="sameAddress">
-                  Billing Address is same as Shipping Address
-                </Checkbox>
-              </HStack>
-            </CheckboxGroup>
           </FormControl>
-          {/* Shipping Address */}
-          {/* Shipping Address */}
-          {/* Shipping Address */}
-          {/* Shipping Address */}
+
+          {/* Shipping Method */}
+          {/* Shipping Method */}
+          {/* Shipping Method */}
+          {/* Shipping Method */}
+
           <Box mt="8">
             <Heading size="md" mb="4">
               Shipping Method
@@ -117,55 +150,55 @@ const Checkout = () => {
           {/* Payment Information  */}
           {/* Payment Information  */}
           {/* Payment Information  */}
-          <Box mt="8">
+          <Box mt="8" mb="8">
             <Heading size="md" mb="4">
               Payment Information
             </Heading>
-            <FormControl>
-              <VStack spacing="4" align="start">
-                <HStack spacing="4">
-                  <FormLabel>Card No</FormLabel>
-                  <Input type="number" />
-                </HStack>
-                <HStack spacing="4">
-                  <FormLabel>Name on Card</FormLabel>
-                  <Input type="text" />
-                </HStack>
-                <HStack spacing="4">
-                  <FormLabel>Expiry Date</FormLabel>
-                  <Input type="month" />
-                </HStack>
-                <HStack spacing="4">
-                  <FormLabel>CVV/CVC</FormLabel>
-                  <Input type="text" />
-                </HStack>
-              </VStack>
-            </FormControl>
+
+            <HStack spacing="20px" mt="2">
+              <FormControl>
+                <FormLabel>Name on Card</FormLabel>
+                <Input type="text" />
+              </FormControl>
+              <FormControl>
+                <FormLabel>Card No</FormLabel>
+                <Input type="Number" />
+              </FormControl>
+            </HStack>
+            <HStack spacing="20px" mt="2">
+              <FormControl>
+                <FormLabel>Expiry Date</FormLabel>
+                <Input type="month" />
+              </FormControl>
+              <FormControl>
+                <FormLabel>CVV / CVC</FormLabel>
+                <Input type="Number" />
+              </FormControl>
+            </HStack>
           </Box>
         </Box>
 
-        <Box w="50%" border="1px solid red" p="4" bg="#F0F8FF">
+        <Box w="50%" p="4" bg="#F0F8FF">
           <Heading size="md" mb="4">
             Order Summary
           </Heading>
+
+          {/* product details  */}
+          {/* product details  */}
+          {/* product details  */}
+          {/* product details  */}
+          {/* product details  */}
           <Box>
             {data.map((e) => {
               return (
                 <Box key={e.id} mb="4">
                   <HStack>
-                    <Image
-                      w="25%"
-                      src={e.product_image}
-                      alt={e.product_name}
-                      border="1px solid blue"
-                    />
+                    <Image w="25%" src={e.product_image} alt={e.product_name} />
 
                     <VStack>
-                      <Box w="100%" padding="2rem">
-                        <Text fontSize="lg" border="1px solid blue">
-                          {e.product_name}
-                        </Text>
-                        <Heading border="1px solid blue" size="sm">
+                      <Box>
+                        <Text fontSize="lg">{e.product_name}</Text>
+                        <Heading size="md" m="10px">
                           Price: ₹ {e.product_price}
                         </Heading>
                         <HStack p="1rem">
@@ -177,6 +210,16 @@ const Checkout = () => {
                           <Box>
                             <FaMinusCircle />
                           </Box>
+                          <Box>
+                            <Button
+                              onClick={() => handleRemove(e.id)}
+                              colorScheme="red"
+                              ml="1rem"
+                              size="sm"
+                            >
+                              Remove
+                            </Button>
+                          </Box>
                         </HStack>
                       </Box>
                     </VStack>
@@ -185,6 +228,12 @@ const Checkout = () => {
               );
             })}
           </Box>
+
+          {/* product details  */}
+          {/* product details  */}
+          {/* product details  */}
+          {/* product details  */}
+          {/* product details  */}
 
           <Box mt="8">
             <Heading size="md" mb="4">
@@ -207,16 +256,26 @@ const Checkout = () => {
             <FormControl>
               <HStack spacing="4">
                 <Input type="text" placeholder="Enter coupon code" />
-                <Button colorScheme="red">Apply Coupon</Button>
+                <Button bg="#FC2779" color="white">
+                  Apply Coupon
+                </Button>
               </HStack>
             </FormControl>
           </Box>
 
           <Box mt="4">
             <Heading size="md" mb="4">
-              Total
+              Total Amount: ₹{final}
             </Heading>
-            <Text>Total Amount: ₹{final}</Text>
+          </Box>
+          <Box>
+            <CheckoutAlert
+              fullName={fullName}
+              streetAddress={streetAddress}
+              zipCode={zipCode}
+              city={city}
+              email={email}
+            />
           </Box>
         </Box>
       </HStack>
@@ -235,3 +294,5 @@ export default Checkout;
 // product_price: 59;
 // product_rating: 3880;
 // rating: 5;
+
+// email
