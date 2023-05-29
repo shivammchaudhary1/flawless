@@ -16,6 +16,7 @@ import {
 import { useEffect, useState } from "react";
 import { MdLocalShipping } from "react-icons/md";
 import { useParams } from "react-router-dom";
+import Alert from "./Alert";
 import axios from "axios";
 
 const SingleProduct = () => {
@@ -35,21 +36,6 @@ const SingleProduct = () => {
         console.log({ error: err });
         setError(true);
         setLoading(false);
-      });
-  };
-
-  const handleBuy = () => {
-    axios
-      .post("http://localhost:8080/buy", data, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-      })
-      .then((response) => {
-        console.log(response.data);
-      })
-      .catch((error) => {
-        console.log({ error: error.message });
       });
   };
 
@@ -156,7 +142,7 @@ const SingleProduct = () => {
             </Box>
           </Stack>
 
-          <Button
+          {/* <Button
             rounded={"none"}
             w={"full"}
             mt={8}
@@ -170,11 +156,11 @@ const SingleProduct = () => {
               transform: "translateY(2px)",
               boxShadow: "lg",
             }}
-            onClick={handleBuy}
+            // onClick={handleBuy}
           >
             Buy Now
-          </Button>
-
+          </Button> */}
+          <Alert data={data} />
           <Stack direction="row" alignItems="center" justifyContent={"center"}>
             <MdLocalShipping />
             <Text>2-3 business days delivery</Text>
