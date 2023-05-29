@@ -6,7 +6,6 @@ import {
   AlertDialogHeader,
   AlertDialogContent,
   AlertDialogOverlay,
-  AlertDialogCloseButton,
   Button,
 } from "@chakra-ui/react";
 import { useDisclosure } from "@chakra-ui/react";
@@ -20,7 +19,7 @@ const Alert = ({ data }) => {
   const handleBuy = () => {
     onOpen();
     axios
-      .post("http://localhost:8080/buy", data, {
+      .post("https://flawless-backend.onrender.com/buy", data, {
         headers: {
           "Content-Type": "application/json",
         },

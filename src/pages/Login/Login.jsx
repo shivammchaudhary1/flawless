@@ -22,7 +22,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/users", {
+      const response = await axios.get("https://flawless-backend.onrender.com/users", {
         params: {
           email,
           password,

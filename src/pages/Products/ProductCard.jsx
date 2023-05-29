@@ -27,7 +27,7 @@ const ProductCard = ({
 }) => {
   const handleAddToCart = () => {
     axios
-      .post("http://localhost:8080/buy", {
+      .post("https://flawless-backend.onrender.com/buy", {
         product_name,
         product_image,
         product_off,

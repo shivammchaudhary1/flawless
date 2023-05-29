@@ -6,7 +6,6 @@ import {
   Image,
   Flex,
   VStack,
-  Button,
   Heading,
   SimpleGrid,
   StackDivider,
@@ -27,7 +26,7 @@ const SingleProduct = () => {
 
   const getData = () => {
     axios
-      .get(`http://localhost:8080/eye?id=${id}`)
+      .get(`https://flawless-backend.onrender.com/eye?id=${id}`)
       .then((res) => {
         // console.log(res.data[0]);
         setData(res.data[0]);

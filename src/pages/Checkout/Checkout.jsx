@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import {
-  Stack,
   Box,
   HStack,
   VStack,
@@ -9,23 +8,18 @@ import {
   Input,
   Radio,
   Text,
-  Checkbox,
-  CheckboxGroup,
   FormControl,
   FormLabel,
   FormHelperText,
   Image,
   Button,
-  Alert,
-  AlertIcon,
-  AlertTitle,
-  AlertDescription,
+
 } from "@chakra-ui/react";
 import { FaPlusCircle, FaMinusCircle } from "react-icons/fa";
 import CheckoutAlert from "./CheckoutAlert";
 
 const getData = () => {
-  return axios.get("http://localhost:8080/buy");
+  return axios.get("https://flawless-backend.onrender.com/buy");
 };
 
 const Checkout = () => {
@@ -68,7 +62,7 @@ const Checkout = () => {
 
   const handleRemove = async (id) => {
     try {
-      await axios.delete(`http://localhost:8080/buy/${id}`);
+      await axios.delete(`https://flawless-backend.onrender.com/buy/${id}`);
       const updatedData = data.filter((e) => e.id !== id);
       setData(updatedData);
     } catch (error) {

@@ -6,7 +6,6 @@ import {
   AlertDialogHeader,
   AlertDialogContent,
   AlertDialogOverlay,
-  AlertDialogCloseButton,
   Button,
 } from "@chakra-ui/react";
 import { useDisclosure } from "@chakra-ui/react";
@@ -23,7 +22,7 @@ const CheckoutAlert = ({ fullName, streetAddress, zipCode, city, email }) => {
     onOpen();
     try {
       const response = await axios.post(
-        "http://localhost:8080/shipping-address",
+        "https://flawless-backend.onrender.com/shipping-address",
         {
           fullName,
           streetAddress,

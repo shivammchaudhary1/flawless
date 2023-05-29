@@ -14,8 +14,10 @@ import { StarIcon } from "@chakra-ui/icons";
 import ProductsCarousal from "./ProductsCarousal";
 import ProductCard from "./ProductCard";
 
+
+
 const getData = (params = { page: 1, limit: 10, sort: "", searchTerm: "" }) => {
-  return axios.get(`http://localhost:8080/eye`, {
+  return axios.get(`https://flawless-backend.onrender.com/eye`, {
     params: {
       _page: params.page,
       _limit: params.limit,
