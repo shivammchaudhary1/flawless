@@ -954,26 +954,89 @@
   ],
   "buy": [
     {
-      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f82ef778903487004818_1.jpg",
       "product_name": "Miss Claire Glimmersticks For Eyes",
-      "product_mrp": 65,
-      "product_price": 59,
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/8/f82ef778903487004818_1.jpg",
       "product_off": "10% Off",
+      "product_price": 59,
+      "product_mrp": 65,
       "product_giftcard": "Get Free Product",
-      "product_rating": 3880,
       "rating": 5,
       "id": 55
     },
     {
-      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/f/3f07c5d8906049910633_1.jpg",
-      "product_name": "Vaadi Herbals Lip Balm - Strawberry & Honey",
-      "product_mrp": 995,
-      "product_price": 66,
-      "product_off": "15% Off",
-      "product_giftcard": "Extra 10% Off",
-      "product_rating": 1386,
-      "rating": 4,
-      "id": 67
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/2/8/28e8a078904325004151_1.jpg",
+      "product_name": "Swiss Beauty Glimmer Eye Liner",
+      "product_mrp": 499,
+      "product_price": 42,
+      "product_off": "20% Off",
+      "product_giftcard": "Enjoy Free Gift",
+      "product_rating": 3414,
+      "rating": 5,
+      "id": 17
+    },
+    {
+      "product_name": "Nykaa Matte to Last! Mini Metallic Liquid Lipstick and Eyesh...",
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/9/8904245711498_1_1.jpg",
+      "product_off": "50% Off",
+      "product_price": 125,
+      "product_mrp": 249,
+      "product_giftcard": "Offer Available",
+      "rating": 2.5,
+      "id": 25
+    },
+    {
+      "product_name": "Maybelline New York The Colossal Kajal 24Hour Smudge Proof -...",
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/f/4/f4aa71c6946537005757_1.jpg",
+      "product_off": "10% Off",
+      "product_price": 170,
+      "product_mrp": 189,
+      "product_giftcard": "Get Free Product",
+      "rating": 2,
+      "id": 26
+    },
+    {
+      "product_name": "Mamaearth Charcoal Black Long Stay Kajal Black Waterproof, F...",
+      "product_image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/a/ea5058a8906087776758__1_.jpg",
+      "product_off": "12% Off",
+      "product_price": 263,
+      "product_mrp": 299,
+      "product_giftcard": "Get Free Product",
+      "rating": 3.5,
+      "id": 59
+    }
+  ],
+  "shipping-address": [
+    {
+      "fullName": "Shivam Chaudhary",
+      "streetAddress": "Lucknow India",
+      "zipCode": "226005",
+      "city": "Lucknow",
+      "email": "shivamchaudhary@gmail.com",
+      "id": 1
+    },
+    {
+      "fullName": "Taniya Maurya",
+      "streetAddress": "Mumbai ",
+      "zipCode": "400001",
+      "city": "Mumbai",
+      "email": "taniyamumbai@gmail.com",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "firstName": "test1",
+      "lastName": "test1",
+      "email": "test1@gmail.com",
+      "password": "test1",
+      "id": 1
+    },
+    {
+      "firstName": "test2",
+      "lastName": "test2",
+      "email": "test2@gmail.com",
+      "password": "test2",
+      "id": 2
     }
   ]
 }

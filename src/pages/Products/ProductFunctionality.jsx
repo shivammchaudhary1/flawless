@@ -14,7 +14,6 @@ import { StarIcon } from "@chakra-ui/icons";
 import ProductsCarousal from "./ProductsCarousal";
 import ProductCard from "./ProductCard";
 
-
 const getData = (params = { page: 1, limit: 10, sort: "", searchTerm: "" }) => {
   return axios.get(`http://localhost:8080/eye`, {
     params: {
@@ -53,7 +52,7 @@ const ProductFunctionality = () => {
         setLoading(false);
       });
   }, [page, sort]);
-  console.log(data);
+  // console.log(data);
 
   // sorting function
 
@@ -181,15 +180,15 @@ const ProductFunctionality = () => {
             return (
               <>
                 <ProductCard
-                  name={property.product_name}
-                  image={property.product_image}
-                  off={property.product_off}
-                  price={property.product_price}
-                  mrp={property.product_mrp}
-                  giftcard={property.product_giftcard}
+                  product_name={property.product_name}
+                  product_image={property.product_image}
+                  product_off={property.product_off}
+                  product_price={property.product_price}
+                  product_mrp={property.product_mrp}
+                  product_giftcard={property.product_giftcard}
                   rating={property.rating}
                   id={property.id}
-                  review={property.product_rating}
+                  product_rating={property.product_rating}
                 />
               </>
             );
