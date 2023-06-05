@@ -28,7 +28,7 @@ The frontend of Flawless is built using
 For the backend, Flawless uses 
   - JSON Server
 ## Deployment: 
-The frontend of the project is deployed using Vercel, providing a fast and reliable hosting solution for the website. The backend is deployed on Render, ensuring smooth data retrieval and storage.
+The frontend of the project is deployed using Vercel, providing a fast and reliable hosting solution for the website. The backend is deployed on Render, ensuring smooth data retrieval and storage..
 
 # Project Links
 ## GitHub Repository: 
